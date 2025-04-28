@@ -1,0 +1,494 @@
+{
+    "kmeans_paraphrase-multilingual-mpnet-base-v2": {
+        "0": {
+            "count": 4,
+            "is_noise": false,
+            "central_doc_filename": "texto17.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nCARLOS EDUARDO MENDES SILVA, brasileiro, solteiro, mecânico, CPF nº 222.333.444-55, RG nº 12.345.678-9 SSP/PR, nascido em 05 de abril de 1985, residente e domiciliado na Rua dos Pinheiros, nº 456, apto. 302, bairro Batel, Curitiba/PR, CEP 80420-120, por intermédio de seu advogado que esta subscreve, vem, respeitosamente, à presença de Vossa Excelência, com fundamento nos artigos 107, inciso I, e 110 do Código Penal, propor o presente",
+            "top_words_cluster": [
+                "brasileiro",
+                "imputado",
+                "ricardo",
+                "julgado",
+                "acusado",
+                "prisional",
+                "caso",
+                "penal",
+                "fiscais",
+                "comarca"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "ricardo",
+                "julgado",
+                "penal",
+                "fiscais",
+                "comarca",
+                "condenatória",
+                "condenado",
+                "delito",
+                "punitividade"
+            ]
+        },
+        "1": {
+            "count": 9,
+            "is_noise": false,
+            "central_doc_filename": "texto10.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nGUILHERME ANDRÉ MACHADO, brasileiro, divorciado, empresário, CPF nº 555.666.777-88, RG nº 12.345.678-0 SSP/PR, residente e domiciliado na Rua XV de Novembro, nº 555, apto. 403, bairro Centro, Curitiba/PR, CEP 80020-000, por seus procuradores abaixo assinados, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 1.699 do Código Civil e demais dispositivos legais aplicáveis, propor a presente",
+            "top_words_cluster": [
+                "brasileiro",
+                "brasileira",
+                "brasil",
+                "comarca",
+                "decretação",
+                "3344ribeiro",
+                "luísa",
+                "judiciais",
+                "solicita",
+                "requerente"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "comarca",
+                "requerente",
+                "procuradores",
+                "domiciliado",
+                "augusto",
+                "argentina",
+                "para",
+                "junta",
+                "jurídicos"
+            ]
+        },
+        "2": {
+            "count": 5,
+            "is_noise": false,
+            "central_doc_filename": "texto23.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DO TRABALHO DA ___ VARA DO TRABALHO DA COMARCA DE SÃO PAULO – SP\n\nProcesso nº: (a ser distribuído)\n\nMARIA APARECIDA SANTOS LIMA, brasileira, solteira, operária, portadora da CTPS nº 123456, série 0001, CPF nº 111.222.333-44, RG nº 12.345.678-9 SSP/SP, residente e domiciliada na Rua das Acácias, nº 250, apto. 101, Bairro Jardim América, São Paulo/SP, CEP 01010-010, por intermédio de seu advogado que esta subscreve, vem respeitosamente perante Vossa Excelência propor a presente",
+            "top_words_cluster": [
+                "paulista",
+                "brasileiro",
+                "brasileira",
+                "ricardo",
+                "laboradas",
+                "funcionário",
+                "comarca",
+                "juízo",
+                "reclamante",
+                "juros"
+            ],
+            "top_words_central_doc": [
+                "paulista",
+                "brasileira",
+                "comarca",
+                "reclamante",
+                "juros",
+                "fato",
+                "operária",
+                "trabalhista",
+                "para",
+                "fiscais"
+            ]
+        },
+        "3": {
+            "count": 1,
+            "is_noise": false,
+            "central_doc_filename": "texto11.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR DESEMBARGADOR PRESIDENTE DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DO PARANÁ\n\nImpetrante: Dr. MARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566;\n\nPaciente: RICARDO JOSÉ ALMEIDA, brasileiro, solteiro, técnico em informática, CPF nº 123.456.789-00, RG nº 10.123.456-7 SSP/PR, nascido em 15 de maio de 1990, residente e domiciliado na Rua Conselheiro Laurindo, nº 1250, apto. 503, bairro Rebouças, Curitiba/PR, CEP 80230-180, atualmente recolhido ilegalmente sob o número de identificação prisional 2024/0054321.",
+            "top_words_cluster": [
+                "brasileiro",
+                "advogado",
+                "oficiada",
+                "ricardo",
+                "prisional",
+                "juízo",
+                "augusto",
+                "jurídicas",
+                "conselheiro",
+                "tribunal"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "advogado",
+                "oficiada",
+                "ricardo",
+                "prisional",
+                "juízo",
+                "augusto",
+                "jurídicas",
+                "conselheiro",
+                "tribunal"
+            ]
+        },
+        "4": {
+            "count": 2,
+            "is_noise": false,
+            "central_doc_filename": "texto21.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA AMBIENTAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nACIONANTE:",
+            "top_words_cluster": [
+                "paulista",
+                "jurídica",
+                "ilegal",
+                "comarca",
+                "brasileiro",
+                "legal",
+                "ecoprojetos",
+                "brasileira",
+                "caso",
+                "fiscalizem"
+            ],
+            "top_words_central_doc": [
+                "paulista",
+                "jurídica",
+                "ilegal",
+                "comarca",
+                "brasileiro",
+                "legal",
+                "ecoprojetos",
+                "brasileira",
+                "caso",
+                "fiscalizem"
+            ]
+        },
+        "5": {
+            "count": 2,
+            "is_noise": false,
+            "central_doc_filename": "texto12.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 310, inciso III, e artigo 319 do Código de Processo Penal, propor o presente pedido de",
+            "top_words_cluster": [
+                "brasileiro",
+                "judiciária",
+                "jurídica",
+                "judicial",
+                "acusado",
+                "advogado",
+                "caso",
+                "advocacia",
+                "oficiado",
+                "juízo"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "judicial",
+                "acusado",
+                "advogado",
+                "caso",
+                "advocacia",
+                "juízo",
+                "prisional",
+                "penal",
+                "augusto"
+            ]
+        },
+        "6": {
+            "count": 3,
+            "is_noise": false,
+            "central_doc_filename": "texto30.txt",
+            "central_doc_snippet": "XCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA ___ VARA CÍVEL DA COMARCA DE SÃO PAULO – SP\n\nProcesso nº: (a ser distribuído)\n\nAÇÃO DE INDENIZAÇÃO POR DANOS MORAIS E MATERIAIS",
+            "top_words_cluster": [
+                "paulista",
+                "brasileiro",
+                "brasil",
+                "autoriza",
+                "juros",
+                "copacabana",
+                "requerente",
+                "juízo",
+                "comarca",
+                "caso"
+            ],
+            "top_words_central_doc": [
+                "paulista",
+                "brasileiro",
+                "brasil",
+                "autoriza",
+                "juros",
+                "requerente",
+                "comarca",
+                "devendo",
+                "realizadas",
+                "jurídica"
+            ]
+        },
+        "7": {
+            "count": 1,
+            "is_noise": false,
+            "central_doc_filename": "texto22.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA AMBIENTAL DA COMARCA DE SÃO PAULO – ESTADO DE SÃO PAULO\n\nProcesso nº: (a ser distribuído)\n\nAÇÃO CIVIL AMBIENTAL COM PEDIDO DE SUSPENSÃO DE ATIVIDADES POLUIDORAS E INDENIZAÇÃO POR DANOS AMBIENTAIS",
+            "top_words_cluster": [
+                "paulista",
+                "jurídicos",
+                "jurídica",
+                "brasileiro",
+                "legal",
+                "ambiental",
+                "ambientais",
+                "advocatícios",
+                "judicial",
+                "advocacia"
+            ],
+            "top_words_central_doc": [
+                "paulista",
+                "jurídicos",
+                "jurídica",
+                "brasileiro",
+                "legal",
+                "ambiental",
+                "ambientais",
+                "advocatícios",
+                "judicial",
+                "advocacia"
+            ]
+        },
+        "8": {
+            "count": 2,
+            "is_noise": false,
+            "central_doc_filename": "texto14.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nCAMILA OLIVEIRA FONSECA, brasileira, solteira, estudante, CPF nº 567.890.123-44, RG nº 33.444.555-6 SSP/PR, representada por sua genitora e representante legal JULIANA OLIVEIRA FONSECA, brasileira, solteira, recepcionista, CPF nº 654.321.987-00, RG nº 77.888.999-1 SSP/PR, ambas residentes e domiciliadas na Rua XV de Novembro, nº 1234, apto. 201, bairro Centro, Curitiba/PR, CEP 80060-000, portadora da conta bancária nº 11223-4, agência nº 0003, Banco Itaú, vêm, respeitosamente, perante Vossa Excelência, com fundamento nos artigos 1.606 e seguintes do Código Civil e demais dispositivos legais aplicáveis, propor a presente",
+            "top_words_cluster": [
+                "judicialmente",
+                "brasileiro",
+                "brasileira",
+                "jurídicos",
+                "genitora",
+                "judicial",
+                "advocacia",
+                "juízo",
+                "depoimento",
+                "legal"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "brasileira",
+                "jurídicos",
+                "genitora",
+                "judicial",
+                "advocacia",
+                "juízo",
+                "depoimento",
+                "legal",
+                "requerente"
+            ]
+        },
+        "9": {
+            "count": 1,
+            "is_noise": false,
+            "central_doc_filename": "texto15.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE SÃO PAULO – ESTADO DE SÃO PAULO\n\nProcesso nº: (a ser distribuído)\n\nMARIA JOSÉ FERREIRA GOMES, brasileira, casada, aposentada, CPF nº 111.222.333-44, RG nº 55.666.777-8 SSP/SP, residente e domiciliada na Rua Visconde de Pirajá, nº 123, apto. 305, Centro, São Paulo/SP, CEP 01001-000, portadora da conta bancária nº 33445-6, agência nº 5555, Banco do Brasil, representada por seu filho e representante legal CARLOS ROBERTO FERREIRA GOMES, brasileiro, solteiro, advogado, CPF nº 999.888.777-66, RG nº 22.111.000-9 SSP/SP, residente e domiciliado no mesmo endereço, por seus procuradores, vem respeitosamente perante Vossa Excelência, com fundamento nos artigos 747 e seguintes do Código de Processo Civil e demais dispositivos legais aplicáveis, propor a presente",
+            "top_words_cluster": [
+                "brasileiro",
+                "brasileira",
+                "brasil",
+                "decretação",
+                "procuradores",
+                "jurídica",
+                "jurídicos",
+                "judicial",
+                "requerente",
+                "comarca"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "brasileira",
+                "brasil",
+                "decretação",
+                "procuradores",
+                "jurídica",
+                "jurídicos",
+                "judicial",
+                "requerente",
+                "comarca"
+            ]
+        }
+    },
+    "hdbscan_paraphrase-multilingual-mpnet-base-v2": {
+        "-1": {
+            "count": 1,
+            "is_noise": true,
+            "central_doc_filename": null,
+            "central_doc_snippet": null,
+            "top_words_cluster": [],
+            "top_words_central_doc": []
+        },
+        "0": {
+            "count": 3,
+            "is_noise": false,
+            "central_doc_filename": "texto21.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA AMBIENTAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nACIONANTE:",
+            "top_words_cluster": [
+                "paulista",
+                "jurídicos",
+                "jurídica",
+                "brasileiro",
+                "legal",
+                "ilegal",
+                "brasileira",
+                "ambiental",
+                "ambientais",
+                "fiscalizem"
+            ],
+            "top_words_central_doc": [
+                "paulista",
+                "jurídica",
+                "brasileiro",
+                "legal",
+                "ilegal",
+                "brasileira",
+                "ambiental",
+                "ambientais",
+                "fiscalizem",
+                "ecoprojetos"
+            ]
+        },
+        "1": {
+            "count": 3,
+            "is_noise": false,
+            "central_doc_filename": "texto12.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 310, inciso III, e artigo 319 do Código de Processo Penal, propor o presente pedido de",
+            "top_words_cluster": [
+                "brasileiro",
+                "judiciária",
+                "judicial",
+                "jurídica",
+                "advogado",
+                "jurídicas",
+                "acusado",
+                "tribunal",
+                "oficiada",
+                "ricardo"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "judicial",
+                "advogado",
+                "acusado",
+                "advocacia",
+                "prisional",
+                "juízo",
+                "caso",
+                "augusto",
+                "lucas"
+            ]
+        },
+        "2": {
+            "count": 4,
+            "is_noise": false,
+            "central_doc_filename": "texto17.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nCARLOS EDUARDO MENDES SILVA, brasileiro, solteiro, mecânico, CPF nº 222.333.444-55, RG nº 12.345.678-9 SSP/PR, nascido em 05 de abril de 1985, residente e domiciliado na Rua dos Pinheiros, nº 456, apto. 302, bairro Batel, Curitiba/PR, CEP 80420-120, por intermédio de seu advogado que esta subscreve, vem, respeitosamente, à presença de Vossa Excelência, com fundamento nos artigos 107, inciso I, e 110 do Código Penal, propor o presente",
+            "top_words_cluster": [
+                "brasileiro",
+                "imputado",
+                "ricardo",
+                "julgado",
+                "acusado",
+                "prisional",
+                "caso",
+                "penal",
+                "fiscais",
+                "comarca"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "ricardo",
+                "julgado",
+                "penal",
+                "fiscais",
+                "comarca",
+                "condenatória",
+                "condenado",
+                "delito",
+                "punitividade"
+            ]
+        },
+        "3": {
+            "count": 11,
+            "is_noise": false,
+            "central_doc_filename": "texto2.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nANA PAULA COSTA SILVEIRA, brasileira, divorciada, administradora, CPF nº 321.654.987-01, RG nº 88.777.666-5 SSP/PR, residente e domiciliada na Rua José Loureiro, nº 300, apto. 804, bairro Centro, Curitiba/PR, CEP 80010-100, portadora da conta bancária nº 54321-0, agência nº 4321, Banco Santander, e cartão de crédito Mastercard nº 5300 0000 0000 0006, validade 10/2029, por seus procuradores, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 693 e seguintes do Código de Processo Civil e demais dispositivos legais aplicáveis, propor a presente",
+            "top_words_cluster": [
+                "brasileiro",
+                "brasileira",
+                "brasil",
+                "comarca",
+                "decretação",
+                "judiciais",
+                "juízo",
+                "procuradores",
+                "3344ribeiro",
+                "luísa"
+            ],
+            "top_words_central_doc": [
+                "brasileiro",
+                "brasileira",
+                "comarca",
+                "decretação",
+                "procuradores",
+                "genitora",
+                "solicita",
+                "requerente",
+                "fato",
+                "fernando"
+            ]
+        },
+        "4": {
+            "count": 3,
+            "is_noise": false,
+            "central_doc_filename": "texto30.txt",
+            "central_doc_snippet": "XCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA ___ VARA CÍVEL DA COMARCA DE SÃO PAULO – SP\n\nProcesso nº: (a ser distribuído)\n\nAÇÃO DE INDENIZAÇÃO POR DANOS MORAIS E MATERIAIS",
+            "top_words_cluster": [
+                "paulista",
+                "brasileiro",
+                "brasil",
+                "autoriza",
+                "juros",
+                "copacabana",
+                "requerente",
+                "juízo",
+                "comarca",
+                "caso"
+            ],
+            "top_words_central_doc": [
+                "paulista",
+                "brasileiro",
+                "brasil",
+                "autoriza",
+                "juros",
+                "requerente",
+                "comarca",
+                "devendo",
+                "realizadas",
+                "jurídica"
+            ]
+        },
+        "5": {
+            "count": 5,
+            "is_noise": false,
+            "central_doc_filename": "texto23.txt",
+            "central_doc_snippet": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DO TRABALHO DA ___ VARA DO TRABALHO DA COMARCA DE SÃO PAULO – SP\n\nProcesso nº: (a ser distribuído)\n\nMARIA APARECIDA SANTOS LIMA, brasileira, solteira, operária, portadora da CTPS nº 123456, série 0001, CPF nº 111.222.333-44, RG nº 12.345.678-9 SSP/SP, residente e domiciliada na Rua das Acácias, nº 250, apto. 101, Bairro Jardim América, São Paulo/SP, CEP 01010-010, por intermédio de seu advogado que esta subscreve, vem respeitosamente perante Vossa Excelência propor a presente",
+            "top_words_cluster": [
+                "paulista",
+                "brasileiro",
+                "brasileira",
+                "ricardo",
+                "laboradas",
+                "funcionário",
+                "comarca",
+                "juízo",
+                "reclamante",
+                "juros"
+            ],
+            "top_words_central_doc": [
+                "paulista",
+                "brasileira",
+                "comarca",
+                "reclamante",
+                "juros",
+                "fato",
+                "operária",
+                "trabalhista",
+                "para",
+                "fiscais"
+            ]
+        }
+    }
+}

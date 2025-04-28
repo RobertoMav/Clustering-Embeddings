@@ -9,9 +9,9 @@ from sentence_transformers import SentenceTransformer  # type: ignore
 from sklearn.metrics.pairwise import cosine_similarity  # type: ignore
 
 # --- Configuration ---
-CLUSTERING_OUTPUT_DIR = "clustering_output"
-VECTORIZER_OUTPUT_DIR = "vectorizer_output"
-DATA_DIR = "data"
+CLUSTERING_OUTPUT_DIR = "src/clustering_output"
+VECTORIZER_OUTPUT_DIR = "src/vectorizer_output"
+DATA_DIR = "src/data"
 CENTRAL_DOC_SNIPPET_LINES = 5  # Number of lines to show from central doc
 TOP_N_WORDS = 10  # Number of top words to find per cluster
 TOP_N_DOCS = 5  # Number of top documents to find per cluster
