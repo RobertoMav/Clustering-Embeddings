@@ -15,6 +15,3 @@
 **Comprimento em tokens do maior texto:** 864
 **Tamanho em disco (arquivos .txt):** 117.75 KB
 **Qualidade dos textos:** Textos jurídicos revisados
-
-**Quantidade de classes:** N/A
-**Distribuição em classes:** N/A

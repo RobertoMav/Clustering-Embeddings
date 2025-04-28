@@ -36,7 +36,13 @@ This project clusters 30 legal procedural documents (Portuguese `.txt` files) us
 - **Models Evaluated**:
   - SpaCy: `en_core_web_md` (96 d), `pt_core_news_md` (300 d)
   - SentenceTransformer: `paraphrase-multilingual-mpnet-base-v2` (768 d), `all-MiniLM-L6-v2` (384 d)
-- **Aggregation**: default average of token embeddings (`model.encode(raw_documents)` or `doc.vector`).
+- **Aggregation**: mean pooling of token embeddings (`model.encode(raw_documents)` or `doc.vector`).
+  - Chosen for its simplicity, computational efficiency and consistent performance on small datasets.
+  - Alternative strategies that could be explored include:
+    - Max pooling of token vectors to capture the most salient features.
+    - Concatenation of mean and max pooled embeddings for richer representations.
+    - TF-IDF weighted averaging to emphasize more informative tokens.
+    - Advanced techniques such as Smooth Inverse Frequency (SIF) or attention-based pooling.
 - **Output**: four dense matrices saved under `src/vectorizer_output/embeddings_{model}.npy`.
 
 - **Tests & Selection**:
@@ -87,3 +93,17 @@ Using the HDBSCAN result on `paraphrase-multilingual-mpnet-base-v2`, we define *
 
 ## g. Conclusion (0.5 pts)
 HDBSCAN with `paraphrase-multilingual-mpnet-base-v2` embeddings produced the most coherent clusters (6 classes, DBCV 0.3846). Key challenges were choosing and justifying preprocessing for Portuguese text and the lack of labeled ground truth. Future work includes using a Portuguese SpaCy model for preprocessing and tuning TF-IDF parameters for improved BOW representation.
+
+
+| Algorithm | Representation | #Clusters | Noise | Silhouette | DBCV |
+|-----------|------------------------------------------------------|-----------|-------|------------|--------|
+| K-Means | TF-IDF | 15 | 0 | 0.2627 | – |
+| HDBSCAN | TF-IDF | 6 | 4 | – | 0.1554 |
+| K-Means | Embeddings (en_core_web_md) | 13 | 0 | 0.2193 | – |
+| HDBSCAN | Embeddings (en_core_web_md) | 2 | 4 | – | 0.1191 |
+| K-Means | Embeddings (paraphrase-multilingual-mpnet-base-v2) | 10 | 0 | 0.4320 | – |
+| HDBSCAN | Embeddings (paraphrase-multilingual-mpnet-base-v2) | 6 | 1 | – | 0.3846 |
+| K-Means | Embeddings (pt_core_news_md) | 2 | 0 | 0.3211 | – |
+| HDBSCAN | Embeddings (pt_core_news_md) | 4 | 2 | – | 0.2702 |
+| K-Means | Embeddings (all-MiniLM-L6-v2) | 11 | 0 | 0.3162 | – |
+| HDBSCAN | Embeddings (all-MiniLM-L6-v2) | 5 | 4 | – | 0.1865 |
