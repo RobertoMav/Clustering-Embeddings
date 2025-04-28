@@ -1,0 +1,20 @@
+
+## Dataset Card
+
+**Natureza dos documentos:** Documentos Processuais
+**Domínio:** Jurídico
+**Tarefa:** Clustering
+**Idioma:** Português
+**Formato:** Arquivos .txt
+
+**Quantidade de textos:** 30
+**Total de tokens (excluindo pontuação/espaços):** 17560
+**Total de types (tokens únicos, case-insensitive):** 2482
+**Comprimento médio dos textos em tokens:** 585.33
+**Comprimento em tokens do menor texto:** 384
+**Comprimento em tokens do maior texto:** 864
+**Tamanho em disco (arquivos .txt):** 117.75 KB
+**Qualidade dos textos:** Textos jurídicos revisados
+
+**Quantidade de classes:** N/A
+**Distribuição em classes:** N/A

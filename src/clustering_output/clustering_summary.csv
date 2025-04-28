@@ -1,0 +1,11 @@
+,Algorithm,Representation,Num Clusters,Noise Points,Silhouette Score,DBCV Score
+kmeans_tfidf,KMeans,TF-IDF,15,0,0.2627,nan
+hdbscan_tfidf,HDBSCAN,TF-IDF,6,4,nan,0.1554
+kmeans_en_core_web_md,KMeans,Embeddings (en_core_web_md),13,0,0.2193,nan
+hdbscan_en_core_web_md,HDBSCAN,Embeddings (en_core_web_md),2,4,nan,0.1191
+kmeans_paraphrase-multilingual-mpnet-base-v2,KMeans,Embeddings (paraphrase-multilingual-mpnet-base-v2),10,0,0.4320,nan
+hdbscan_paraphrase-multilingual-mpnet-base-v2,HDBSCAN,Embeddings (paraphrase-multilingual-mpnet-base-v2),6,1,nan,0.3846
+kmeans_pt_core_news_md,KMeans,Embeddings (pt_core_news_md),2,0,0.3211,nan
+hdbscan_pt_core_news_md,HDBSCAN,Embeddings (pt_core_news_md),4,2,nan,0.2702
+kmeans_all-MiniLM-L6-v2,KMeans,Embeddings (all-MiniLM-L6-v2),11,0,0.3162,nan
+hdbscan_all-MiniLM-L6-v2,HDBSCAN,Embeddings (all-MiniLM-L6-v2),5,4,nan,0.1865
