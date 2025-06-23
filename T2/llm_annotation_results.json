@@ -1,0 +1,510 @@
+{
+  "zero_shot": [
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nJOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10, RG nº 11.222.333-4 SSP/PR, residente e domiciliado na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000, portador da conta bancária nº 12345-6, agência nº 0001, Banco do Brasil, e cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028; e MARIA CLARA RODRIGUES PEREIRA, brasileira, casada, médica, CPF nº 987.654.321-00, RG nº 55.666.777-8 SSP/PR, residente e domiciliada na Avenida Sete de Setembro, nº 4567, apto. 102, bairro Batel, Curitiba/PR, CEP 80440-000, portadora da conta bancária nº 98765-4, agência nº 0002, Caixa Econômica Federal, e cartão de crédito Mastercard nº 5500 0000 0000 0004, validade 05/2029, por seus procuradores, vêm respeitosamente perante Vossa Excelência, com fundamento no artigo 731 do Código de Processo Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE DIVÓRCIO CONSENSUAL CUMULADA COM PARTILHA DE BENS E GUARDA COMPARTILHADA\n\nem razão dos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nOs requerentes contraíram matrimônio sob o regime da comunhão parcial de bens em 10 de março de 2012, conforme certidão de casamento anexa. Da união, nasceram dois filhos menores, a saber:\n\nLucas Pereira Souza, nascido em 15 de julho de 2014;\n\nAna Luísa Pereira Souza, nascida em 22 de novembro de 2017.\n\nEm comum acordo, os requerentes decidiram pela dissolução do vínculo matrimonial, reconhecendo a impossibilidade de continuação da vida conjugal. Ressaltam, contudo, que a decisão foi amadurecida de forma consensual e pacífica, priorizando o bem-estar dos filhos.\n\nII – DA GUARDA COMPARTILHADA\n\nAmbos concordam com a guarda compartilhada dos filhos menores, mantendo residência principal com a mãe e estabelecendo convivência livre e equilibrada com o pai, especialmente em finais de semana alternados e metade das férias escolares.\n\nIII – DOS ALIMENTOS\n\nFica acordado o pagamento mensal de alimentos pelo requerente João Pedro Almeida Souza no valor de R$ 2.500,00 (dois mil e quinhentos reais), pagos até o 5º dia útil de cada mês, diretamente à genitora, com reajuste anual pelo índice oficial de inflação (IPCA).\n\nIV – DA PARTILHA DOS BENS\n\nOs requerentes possuem em comum os seguintes bens:\n\na) Um apartamento situado na Rua das Flores, nº 890, apto. 1502, bairro Centro, Curitiba/PR, CEP 80010-000, avaliado em R$ 600.000,00 (seiscentos mil reais), registrado no Cartório de Registro de Imóveis sob matrícula nº 56789;\nb) Veículo Toyota Corolla, placa XYZ-1234, ano 2020, avaliado em R$ 90.000,00 (noventa mil reais).\n\nAcordam os requerentes que o apartamento será alienado e o valor apurado dividido igualmente entre ambos. O veículo ficará com o requerente João Pedro Almeida Souza, que indenizará a requerente Maria Clara Rodrigues Pereira na importância de R$ 45.000,00 (quarenta e cinco mil reais), correspondente a 50% do valor do bem, a ser depositado na conta bancária da requerente acima indicada no prazo máximo de 30 (trinta) dias após a homologação judicial do presente acordo.\n\nV – DO NOME\n\nA requerente opta por retornar a utilizar seu nome de solteira, passando a assinar-se MARIA CLARA RODRIGUES PEREIRA.\n\nVI – DOS PEDIDOS\n\nAnte o exposto, requerem os peticionantes:\n\na) A homologação do acordo e consequente decretação do divórcio consensual dos requerentes, com a dissolução do vínculo matrimonial;\nb) A homologação da guarda compartilhada dos filhos menores, conforme detalhado acima;\nc) A fixação dos alimentos nos termos do acordo apresentado;\nd) A homologação da partilha de bens conforme especificada acima;\ne) A alteração do nome da requerente para o nome de solteira;\nf) Seja deferida a produção das provas que se fizerem necessárias;\ng) A concessão dos benefícios da justiça gratuita aos requerentes, considerando a declaração anexa de hipossuficiência econômica;\nh) Intimação do Ministério Público em razão da existência de filhos menores.\n\nDá-se à causa o valor de R$ 690.000,00 (seiscentos e noventa mil reais).\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 10 de maio de 2024.\n\nDr. CARLOS EDUARDO LIMA FERREIRAOAB/PR nº 12.345Telefone: (41) 3222-1234Lima Ferreira Advocacia FamiliarRua XV de Novembro, nº 250, 6º andar, sala 602, Centro, Curitiba/PR, CEP 80020-310",
+      "prompt_type": "zero-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization. \nExtract and classify named entities for anonymization from the following legal text.\n\nIdentify the following entity types: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nInstructions:\n- Extract entities that need to be anonymized for privacy protection\n- Use the format: entity_text -> ENTITY_TYPE\n- Be precise with entity boundaries\n- Only extract entities that clearly match the specified types\n- Focus on sensitive information that should be anonymized\n\nText to analyze:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nJOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10, RG nº 11.222.333-4 SSP/PR, residente e domiciliado na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000, portador da conta bancária nº 12345-6, agência nº 0001, Banco do Brasil, e cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028; e MARIA CLARA RODRIGUES PEREIRA, brasileira, casada, médica, CPF nº 987.654.321-00, RG nº 55.666.777-8 SSP/PR, residente e domiciliada na Avenida Sete de Setembro, nº 4567, apto. 102, bairro Batel, Curitiba/PR, CEP 80440-000, portadora da conta bancária nº 98765-4, agência nº 0002, Caixa Econômica Federal, e cartão de crédito Mastercard nº 5500 0000 0000 0004, validade 05/2029, por seus procuradores, vêm respeitosamente perante Vossa Excelência, com fundamento no artigo 731 do Código de P...\n\nExtracted entities:",
+      "response": "- 123.456.789-10 -> CPF\n- 987.654.321-00 -> CPF\n- 23.456.789-1 -> RG\n- 11.222.333-4 -> RG\n- 87.654.321-0 -> RG\n- 55.666.777-8 -> RG\n- (41) 3222-1234 -> PHONE\n- 80240-000 -> CEP\n- 80440-000 -> CEP\n- 80010-000 -> CEP\n- 80020-310 -> CEP\n- O PEDRO ALMEIDA SOUZA -> PERSON\n- MARIA CLARA RODRIGUES PEREIRA -> PERSON",
+      "entities": [
+        {
+          "text": "123.456.789-10",
+          "type": "CPF"
+        },
+        {
+          "text": "987.654.321-00",
+          "type": "CPF"
+        },
+        {
+          "text": "23.456.789-1",
+          "type": "RG"
+        },
+        {
+          "text": "11.222.333-4",
+          "type": "RG"
+        },
+        {
+          "text": "87.654.321-0",
+          "type": "RG"
+        },
+        {
+          "text": "55.666.777-8",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3222-1234",
+          "type": "PHONE"
+        },
+        {
+          "text": "80240-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80440-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80010-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80020-310",
+          "type": "CEP"
+        },
+        {
+          "text": "O PEDRO ALMEIDA SOUZA",
+          "type": "PERSON"
+        },
+        {
+          "text": "MARIA CLARA RODRIGUES PEREIRA",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nGUILHERME ANDRÉ MACHADO, brasileiro, divorciado, empresário, CPF nº 555.666.777-88, RG nº 12.345.678-0 SSP/PR, residente e domiciliado na Rua XV de Novembro, nº 555, apto. 403, bairro Centro, Curitiba/PR, CEP 80020-000, por seus procuradores abaixo assinados, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 1.699 do Código Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE EXONERAÇÃO DE ALIMENTOS DE FILHO MAIOR\n\nem face de RAFAEL MACHADO, brasileiro, solteiro, estudante, CPF nº 888.999.000-11, RG nº 22.333.444-5 SSP/PR, residente e domiciliado na Avenida República Argentina, nº 2000, apto. 901, bairro Água Verde, Curitiba/PR, CEP 80240-000, pelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nO requerente encontra-se obrigado ao pagamento de alimentos em favor do requerido, seu filho, conforme decisão proferida nos autos nº 0005678-90.2015.8.16.0001 desta Vara de Família.\n\nAtualmente, o requerido conta com 25 anos de idade, concluiu sua graduação em Administração em dezembro de 2023 e está plenamente capacitado para exercer atividade profissional remunerada e independente.\n\nII – DO DIREITO\n\nO artigo 1.699 do Código Civil estabelece que a obrigação alimentar pode ser revista quando modificada a situação financeira das partes, especialmente quando o alimentado atinge capacidade para prover seu próprio sustento.\n\nConsiderando a capacidade atual do requerido, mostra-se plenamente justificável a exoneração definitiva da obrigação alimentar anteriormente fixada.\n\nIII – DAS PROVAS\n\nJunta-se documentação comprobatória da conclusão do curso superior e idade do requerido. Requer-se também a produção de provas adicionais que se fizerem necessárias.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer-se:\n\na) A citação do requerido para, querendo, apresentar defesa;\nb) A exoneração definitiva da obrigação alimentar anteriormente estabelecida;\nc) A produção das provas necessárias ao esclarecimento dos fatos;\nd) A concessão dos benefícios da justiça gratuita ao requerente, conforme declaração anexa;\ne) A procedência total da presente ação.\n\nDá-se à causa o valor de R$ 12.000,00 (doze mil reais).\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 21 de maio de 2024.\n\nDr. FÁBIO AUGUSTO SOARES\nOAB/PR nº 91.234\nTelefone: (41) 3344-5566\nSoares Advocacia Familiar\nRua Marechal Deodoro, nº 250, 5º andar, sala 502, Centro, Curitiba/PR, CEP 80010-010",
+      "prompt_type": "zero-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization. \nExtract and classify named entities for anonymization from the following legal text.\n\nIdentify the following entity types: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nInstructions:\n- Extract entities that need to be anonymized for privacy protection\n- Use the format: entity_text -> ENTITY_TYPE\n- Be precise with entity boundaries\n- Only extract entities that clearly match the specified types\n- Focus on sensitive information that should be anonymized\n\nText to analyze:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nGUILHERME ANDRÉ MACHADO, brasileiro, divorciado, empresário, CPF nº 555.666.777-88, RG nº 12.345.678-0 SSP/PR, residente e domiciliado na Rua XV de Novembro, nº 555, apto. 403, bairro Centro, Curitiba/PR, CEP 80020-000, por seus procuradores abaixo assinados, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 1.699 do Código Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE EXONERAÇÃO DE ALIMENTOS DE FILHO MAIOR\n\nem face de RAFAEL MACHADO, brasileiro, solteiro, estudante, CPF nº 888.999.000-11, RG nº 22.333.444-5 SSP/PR, residente e domiciliado na Avenida República Argentina, nº 2000, apto. 901, bairro Água Verde, Curitiba/PR, CEP 80240-000, pelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nO requerente encontra-se obrigado ao pagamento de alimentos em favor do requerido, seu filho, ...\n\nExtracted entities:",
+      "response": "- 555.666.777-88 -> CPF\n- 888.999.000-11 -> CPF\n- 55.666.777-8 -> RG\n- 12.345.678-0 -> RG\n- 88.999.000-1 -> RG\n- 22.333.444-5 -> RG\n- (41) 3344-5566 -> PHONE\n- 80020-000 -> CEP\n- 80240-000 -> CEP\n- 80010-010 -> CEP\n- RAFAEL MACHADO -> PERSON",
+      "entities": [
+        {
+          "text": "555.666.777-88",
+          "type": "CPF"
+        },
+        {
+          "text": "888.999.000-11",
+          "type": "CPF"
+        },
+        {
+          "text": "55.666.777-8",
+          "type": "RG"
+        },
+        {
+          "text": "12.345.678-0",
+          "type": "RG"
+        },
+        {
+          "text": "88.999.000-1",
+          "type": "RG"
+        },
+        {
+          "text": "22.333.444-5",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3344-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80020-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80240-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80010-010",
+          "type": "CEP"
+        },
+        {
+          "text": "RAFAEL MACHADO",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR DESEMBARGADOR PRESIDENTE DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DO PARANÁ\n\nImpetrante: Dr. MARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566;\n\nPaciente: RICARDO JOSÉ ALMEIDA, brasileiro, solteiro, técnico em informática, CPF nº 123.456.789-00, RG nº 10.123.456-7 SSP/PR, nascido em 15 de maio de 1990, residente e domiciliado na Rua Conselheiro Laurindo, nº 1250, apto. 503, bairro Rebouças, Curitiba/PR, CEP 80230-180, atualmente recolhido ilegalmente sob o número de identificação prisional 2024/0054321.\n\nO Impetrante acima qualificado, no exercício regular de sua profissão e com fundamento no artigo 5º, LXVIII da Constituição Federal, artigos 647 e seguintes do Código de Processo Penal, vem respeitosamente perante Vossa Excelência impetrar a presente ordem de\n\nHABEAS CORPUS\n\nEm favor do Paciente acima identificado, indicando como autoridade coatora o MM. Juiz de Direito da Vara Criminal da Comarca de Curitiba, pelas razões fáticas e jurídicas a seguir expostas:\n\nI – DOS FATOS\n\nO paciente foi preso preventivamente em 10 de maio de 2024, sob a alegação de suposta prática de furto qualificado, conforme decisão proferida pelo juízo da Vara Criminal da Comarca de Curitiba, nos autos do processo nº 0023456-78.2024.8.16.0001.\n\nContudo, verifica-se flagrante ilegalidade na decretação da prisão preventiva, uma vez que não há elementos concretos nos autos que justifiquem a segregação cautelar do paciente, tampouco indícios suficientes que demonstrem o risco à ordem pública, econômica ou a instrução criminal.\n\nII – DO DIREITO\n\nConforme preceitua o artigo 312 do Código de Processo Penal, a prisão preventiva só poderá ser decretada mediante fundamentação concreta e existência de requisitos legais específicos, quais sejam garantia da ordem pública, ordem econômica, conveniência da instrução criminal ou aplicação da lei penal.\n\nNa hipótese presente, inexiste justificativa plausível ou concreta que sustente a prisão preventiva. Não há antecedentes criminais do paciente, possui residência fixa e atividade profissional lícita, fatores que afastam a necessidade de medida cautelar extrema.\n\nIII – DAS PROVAS\n\nRequer-se a juntada dos documentos pessoais do paciente, comprovante de residência, comprovante de emprego, bem como cópia integral do processo originário.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer o Impetrante:\n\na) A concessão liminar da ordem de Habeas Corpus, determinando a imediata soltura do paciente;\nb) Seja oficiada a autoridade apontada como coatora para prestar as informações necessárias no prazo legal;\nc) Seja dado vista ao Ministério Público;\nd) No mérito, a confirmação da ordem liminar concedida, tornando definitiva a liberdade do paciente;\ne) A juntada dos documentos anexados à presente impetração.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 22 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+      "prompt_type": "zero-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization. \nExtract and classify named entities for anonymization from the following legal text.\n\nIdentify the following entity types: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nInstructions:\n- Extract entities that need to be anonymized for privacy protection\n- Use the format: entity_text -> ENTITY_TYPE\n- Be precise with entity boundaries\n- Only extract entities that clearly match the specified types\n- Focus on sensitive information that should be anonymized\n\nText to analyze:\nEXCELENTÍSSIMO SENHOR DOUTOR DESEMBARGADOR PRESIDENTE DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DO PARANÁ\n\nImpetrante: Dr. MARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566;\n\nPaciente: RICARDO JOSÉ ALMEIDA, brasileiro, solteiro, técnico em informática, CPF nº 123.456.789-00, RG nº 10.123.456-7 SSP/PR, nascido em 15 de maio de 1990, residente e domiciliado na Rua Conselheiro Laurindo, nº 1250, apto. 503, bairro Rebouças, Curitiba/PR, CEP 80230-180, atualmente recolhido ilegalmente sob o número de identificação prisional 2024/0054321.\n\nO Impetrante acima qualificado, no exercício regular de sua profissão e com fundamento no artigo 5º, LXVIII da Constituição Federal, artigos 647 e seguintes do Código de Processo Penal, vem respeitosamente perante Vossa Excelência impetrar a presente ordem de\n\nHABEAS CORPUS\n\nEm favor ...\n\nExtracted entities:",
+      "response": "- 123.456.789-00 -> CPF\n- 23.456.789-0 -> RG\n- 10.123.456-7 -> RG\n- (41) 3322-5566 -> PHONE\n- (41) 3322-5566 -> PHONE\n- 80410-201 -> CEP\n- 80230-180 -> CEP\n- 80410-201 -> CEP\n- MARCELO AUGUSTO VIEIRA -> PERSON",
+      "entities": [
+        {
+          "text": "123.456.789-00",
+          "type": "CPF"
+        },
+        {
+          "text": "23.456.789-0",
+          "type": "RG"
+        },
+        {
+          "text": "10.123.456-7",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "80230-180",
+          "type": "CEP"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "MARCELO AUGUSTO VIEIRA",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 310, inciso III, e artigo 319 do Código de Processo Penal, propor o presente pedido de\n\nLIBERDADE PROVISÓRIA CUMULADA COM MEDIDAS CAUTELARES\n\nem favor de LUCAS FERREIRA DOS SANTOS, brasileiro, solteiro, vendedor, CPF nº 112.233.445-56, RG nº 12.345.678-9 SSP/PR, nascido em 25 de março de 1992, residente e domiciliado na Avenida Sete de Setembro, nº 1440, apto. 502, bairro Centro, Curitiba/PR, CEP 80060-070, atualmente custodiado sob número de identificação prisional 2024/0065432, pelas razões de fato e de direito a seguir expostas:\n\nI – DOS FATOS\n\nO acusado foi preso em flagrante no dia 16 de maio de 2024, acusado do crime previsto no artigo 157, caput, do Código Penal (roubo simples). O flagrante foi regularmente lavrado e homologado, porém não há elementos que justifiquem a manutenção da prisão preventiva, considerando que o acusado é primário, possui residência fixa e atividade laboral comprovada.\n\nII – DO DIREITO\n\nNos termos do artigo 310, inciso III, do Código de Processo Penal, verificada a ausência dos requisitos que autorizam a prisão preventiva, deverá ser concedida a liberdade provisória ao acusado, condicionada às medidas cautelares previstas no artigo 319 do mesmo código.\n\nNo presente caso, o acusado atende a todas as condições legais para responder ao processo em liberdade, sendo suficiente a aplicação de medidas cautelares alternativas à prisão.\n\nIII – DAS MEDIDAS CAUTELARES\n\nPropõe-se a aplicação das seguintes medidas cautelares previstas no artigo 319 do Código de Processo Penal:\n\na) Comparecimento mensal em juízo para informar e justificar atividades;\nb) Proibição de se ausentar da comarca sem autorização judicial prévia;\nc) Recolhimento domiciliar no período noturno e em dias de folga;\nd) Proibição de frequentar determinados lugares relacionados ao fato investigado.\n\nIV – DAS PROVAS\n\nRequer-se a juntada dos documentos pessoais do acusado, comprovantes de residência e vínculo empregatício, bem como quaisquer outros documentos pertinentes.\n\nV – DOS PEDIDOS\n\nAnte o exposto, requer-se:\n\na) A concessão da liberdade provisória mediante a imposição das medidas cautelares propostas;\nb) A expedição do competente alvará de soltura;\nc) Seja dada vista ao Ministério Público;\nd) A produção das provas necessárias para demonstrar os fatos alegados;\ne) A concessão dos benefícios da justiça gratuita ao acusado, conforme declaração anexa;\nf) A procedência total deste pedido.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 24 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+      "prompt_type": "zero-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization. \nExtract and classify named entities for anonymization from the following legal text.\n\nIdentify the following entity types: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nInstructions:\n- Extract entities that need to be anonymized for privacy protection\n- Use the format: entity_text -> ENTITY_TYPE\n- Be precise with entity boundaries\n- Only extract entities that clearly match the specified types\n- Focus on sensitive information that should be anonymized\n\nText to analyze:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 310, inciso III, e artigo 319 do Código de Processo Penal, propor o presente pedido de\n\nLIBERDADE PROVISÓRIA CUMULADA COM MEDIDAS CAUTELARES\n\nem favor de LUCAS FERREIRA DOS SANTOS, brasileiro, solteiro, vendedor, CPF nº 112.233.445-56, RG nº 12.345.678-9 SSP/PR, nascido em 25 de março de 1992, residente e domiciliado na Avenida Sete de Setembro, nº 1440, apto. 502, bairro Centro, Curitiba/PR, CEP 80060-070, atualmente custodiado sob número de identificação prisional 2024/0065432, pelas razões de fato e de direito a seguir expostas:\n\nI – DOS FATOS\n\nO acusado...\n\nExtracted entities:",
+      "response": "- 112.233.445-56 -> CPF\n- 12.233.445-5 -> RG\n- 12.345.678-9 -> RG\n- (41) 3322-5566 -> PHONE\n- (41) 3322-5566 -> PHONE\n- 80410-201 -> CEP\n- 80060-070 -> CEP\n- 80410-201 -> CEP\n- MARCELO AUGUSTO VIEIRA -> PERSON\n- LUCAS FERREIRA DOS SANTOS -> PERSON",
+      "entities": [
+        {
+          "text": "112.233.445-56",
+          "type": "CPF"
+        },
+        {
+          "text": "12.233.445-5",
+          "type": "RG"
+        },
+        {
+          "text": "12.345.678-9",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "80060-070",
+          "type": "CEP"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "MARCELO AUGUSTO VIEIRA",
+          "type": "PERSON"
+        },
+        {
+          "text": "LUCAS FERREIRA DOS SANTOS",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 5º, inciso LXV, da Constituição Federal e artigos 310, inciso I, e 648, inciso II, do Código de Processo Penal, requerer o presente\n\nRELAXAMENTO DE PRISÃO EM FLAGRANTE\n\nem favor de EDUARDO SILVA BARROS, brasileiro, solteiro, estudante, CPF nº 987.654.321-00, RG nº 99.888.777-6 SSP/PR, nascido em 20 de julho de 1996, residente e domiciliado na Rua Engenheiros Rebouças, nº 1020, apto. 802, bairro Rebouças, Curitiba/PR, CEP 80215-100, atualmente custodiado sob número de identificação prisional 2024/0056789, pelas razões a seguir expostas:\n\nI – DOS FATOS\nO acusado foi preso em flagrante no dia 15 de maio de 2024, sob a acusação de suposto crime de tráfico de drogas. Entretanto, o Auto de Prisão em Flagrante não apresenta justificativa legal válida, estando eivado de irregularidades, visto que não foram observados os requisitos essenciais para a configuração do flagrante.\n\nA prisão ocorreu quando o acusado transitava normalmente pela via pública, sem portar qualquer substância ilícita ou apresentar conduta que configurasse suspeita razoável para abordagem policial.\n\nII – DO DIREITO\nNos termos do artigo 5º, inciso LXV da Constituição Federal, a prisão ilegal será imediatamente relaxada pela autoridade judiciária. O artigo 310, inciso I, do Código de Processo Penal reforça que a prisão em flagrante deve ser relaxada quando constatada sua ilegalidade.\n\nNo presente caso, verifica-se que a prisão ocorreu sem fundamentação jurídica válida e sem observância dos requisitos legais necessários para caracterização da flagrância. Ademais, o acusado possui residência fixa, ocupação lícita e bons antecedentes.\n\nIII – DAS PROVAS\nRequer-se a juntada dos documentos pessoais do acusado, comprovantes de residência e matrícula escolar, e depoimentos testemunhais que comprovem a irregularidade da prisão.\n\nIV – DOS PEDIDOS\nDiante do exposto, requer-se:\n\na) O relaxamento imediato da prisão ilegal do acusado;\nb) A expedição do competente alvará de soltura;\nc) Seja oficiado o responsável pela unidade prisional para cumprimento imediato;\nd) Seja dada vista ao Ministério Público;\ne) A produção de todas as provas necessárias para demonstrar os fatos alegados;\nf) A concessão dos benefícios da justiça gratuita ao acusado, conforme declaração anexa;\ng) A procedência total deste pedido.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 23 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+      "prompt_type": "zero-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization. \nExtract and classify named entities for anonymization from the following legal text.\n\nIdentify the following entity types: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nInstructions:\n- Extract entities that need to be anonymized for privacy protection\n- Use the format: entity_text -> ENTITY_TYPE\n- Be precise with entity boundaries\n- Only extract entities that clearly match the specified types\n- Focus on sensitive information that should be anonymized\n\nText to analyze:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 5º, inciso LXV, da Constituição Federal e artigos 310, inciso I, e 648, inciso II, do Código de Processo Penal, requerer o presente\n\nRELAXAMENTO DE PRISÃO EM FLAGRANTE\n\nem favor de EDUARDO SILVA BARROS, brasileiro, solteiro, estudante, CPF nº 987.654.321-00, RG nº 99.888.777-6 SSP/PR, nascido em 20 de julho de 1996, residente e domiciliado na Rua Engenheiros Rebouças, nº 1020, apto. 802, bairro Rebouças, Curitiba/PR, CEP 80215-100, atualmente custodiado sob número de identificação prisional 2024/0056789, pelas razões a seguir expostas:\n\nI – DOS FATOS\nO acus...\n\nExtracted entities:",
+      "response": "- 987.654.321-00 -> CPF\n- 87.654.321-0 -> RG\n- 99.888.777-6 -> RG\n- (41) 3322-5566 -> PHONE\n- (41) 3322-5566 -> PHONE\n- 80410-201 -> CEP\n- 80215-100 -> CEP\n- 80410-201 -> CEP\n- MARCELO AUGUSTO VIEIRA -> PERSON\n- EDUARDO SILVA BARROS -> PERSON",
+      "entities": [
+        {
+          "text": "987.654.321-00",
+          "type": "CPF"
+        },
+        {
+          "text": "87.654.321-0",
+          "type": "RG"
+        },
+        {
+          "text": "99.888.777-6",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "80215-100",
+          "type": "CEP"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "MARCELO AUGUSTO VIEIRA",
+          "type": "PERSON"
+        },
+        {
+          "text": "EDUARDO SILVA BARROS",
+          "type": "PERSON"
+        }
+      ]
+    }
+  ],
+  "few_shot": [
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nJOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10, RG nº 11.222.333-4 SSP/PR, residente e domiciliado na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000, portador da conta bancária nº 12345-6, agência nº 0001, Banco do Brasil, e cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028; e MARIA CLARA RODRIGUES PEREIRA, brasileira, casada, médica, CPF nº 987.654.321-00, RG nº 55.666.777-8 SSP/PR, residente e domiciliada na Avenida Sete de Setembro, nº 4567, apto. 102, bairro Batel, Curitiba/PR, CEP 80440-000, portadora da conta bancária nº 98765-4, agência nº 0002, Caixa Econômica Federal, e cartão de crédito Mastercard nº 5500 0000 0000 0004, validade 05/2029, por seus procuradores, vêm respeitosamente perante Vossa Excelência, com fundamento no artigo 731 do Código de Processo Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE DIVÓRCIO CONSENSUAL CUMULADA COM PARTILHA DE BENS E GUARDA COMPARTILHADA\n\nem razão dos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nOs requerentes contraíram matrimônio sob o regime da comunhão parcial de bens em 10 de março de 2012, conforme certidão de casamento anexa. Da união, nasceram dois filhos menores, a saber:\n\nLucas Pereira Souza, nascido em 15 de julho de 2014;\n\nAna Luísa Pereira Souza, nascida em 22 de novembro de 2017.\n\nEm comum acordo, os requerentes decidiram pela dissolução do vínculo matrimonial, reconhecendo a impossibilidade de continuação da vida conjugal. Ressaltam, contudo, que a decisão foi amadurecida de forma consensual e pacífica, priorizando o bem-estar dos filhos.\n\nII – DA GUARDA COMPARTILHADA\n\nAmbos concordam com a guarda compartilhada dos filhos menores, mantendo residência principal com a mãe e estabelecendo convivência livre e equilibrada com o pai, especialmente em finais de semana alternados e metade das férias escolares.\n\nIII – DOS ALIMENTOS\n\nFica acordado o pagamento mensal de alimentos pelo requerente João Pedro Almeida Souza no valor de R$ 2.500,00 (dois mil e quinhentos reais), pagos até o 5º dia útil de cada mês, diretamente à genitora, com reajuste anual pelo índice oficial de inflação (IPCA).\n\nIV – DA PARTILHA DOS BENS\n\nOs requerentes possuem em comum os seguintes bens:\n\na) Um apartamento situado na Rua das Flores, nº 890, apto. 1502, bairro Centro, Curitiba/PR, CEP 80010-000, avaliado em R$ 600.000,00 (seiscentos mil reais), registrado no Cartório de Registro de Imóveis sob matrícula nº 56789;\nb) Veículo Toyota Corolla, placa XYZ-1234, ano 2020, avaliado em R$ 90.000,00 (noventa mil reais).\n\nAcordam os requerentes que o apartamento será alienado e o valor apurado dividido igualmente entre ambos. O veículo ficará com o requerente João Pedro Almeida Souza, que indenizará a requerente Maria Clara Rodrigues Pereira na importância de R$ 45.000,00 (quarenta e cinco mil reais), correspondente a 50% do valor do bem, a ser depositado na conta bancária da requerente acima indicada no prazo máximo de 30 (trinta) dias após a homologação judicial do presente acordo.\n\nV – DO NOME\n\nA requerente opta por retornar a utilizar seu nome de solteira, passando a assinar-se MARIA CLARA RODRIGUES PEREIRA.\n\nVI – DOS PEDIDOS\n\nAnte o exposto, requerem os peticionantes:\n\na) A homologação do acordo e consequente decretação do divórcio consensual dos requerentes, com a dissolução do vínculo matrimonial;\nb) A homologação da guarda compartilhada dos filhos menores, conforme detalhado acima;\nc) A fixação dos alimentos nos termos do acordo apresentado;\nd) A homologação da partilha de bens conforme especificada acima;\ne) A alteração do nome da requerente para o nome de solteira;\nf) Seja deferida a produção das provas que se fizerem necessárias;\ng) A concessão dos benefícios da justiça gratuita aos requerentes, considerando a declaração anexa de hipossuficiência econômica;\nh) Intimação do Ministério Público em razão da existência de filhos menores.\n\nDá-se à causa o valor de R$ 690.000,00 (seiscentos e noventa mil reais).\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 10 de maio de 2024.\n\nDr. CARLOS EDUARDO LIMA FERREIRAOAB/PR nº 12.345Telefone: (41) 3222-1234Lima Ferreira Advocacia FamiliarRua XV de Novembro, nº 250, 6º andar, sala 602, Centro, Curitiba/PR, CEP 80020-310",
+      "prompt_type": "few-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization.\nExtract and classify named entities for anonymization following the examples below.\n\nExamples of entity extraction:\n\nText: \"JOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10\"\nEntities:\n- JOÃO PEDRO ALMEIDA SOUZA -> PERSON\n- 123.456.789-10 -> CPF\n\nText: \"residente na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000\"\nEntities:\n- Rua das Palmeiras, nº 123, apto. 401 -> ADDRESS\n- Água Verde -> NEIGHBORHOOD\n- Curitiba/PR -> CITY\n- 80240-000 -> CEP\n\nText: \"conta bancária nº 12345-6, agência nº 0001, Banco do Brasil\"\nEntities:\n- 12345-6, agência nº 0001 -> BANK_ACCOUNT\n- Banco do Brasil -> INSTITUTION\n\nText: \"Telefone: (41) 3222-1234\"\nEntities:\n- (41) 3222-1234 -> PHONE\n\nText: \"cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028\"\nEntities:\n- 4111 1111 1111 1111 -> CREDIT_CARD\n- 12/2028 -> DATE\n\nEntity types to identify: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nNow extract entities from this text:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nJOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10, RG nº 11.222.333-4 SSP/PR, residente e domiciliado na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000, portador da conta bancária nº 12345-6, agência nº 0001, Banco do Brasil, e cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028; e MARIA CLARA RODRIGUES PEREIRA, brasileira, casada, médica, CPF nº 987.654.321-00, RG nº 55.666.777-8 SSP/PR, residente e domiciliada na Avenida Sete de Setembro, nº 4567, apto. 102, bairro Batel, Curitiba/PR, CEP 80440-000, portadora da conta bancária nº 98765-4, agência nº 0002, Caixa Econômica Federal, e cartão de crédito Mastercard nº 5500 0000 0000 0004, validade 05/2029, por seus procuradores, vêm respeitosamente perante Vossa Excelência, com fundamento no artigo 731 do Código de P...\n\nExtracted entities:",
+      "response": "- 123.456.789-10 -> CPF\n- 987.654.321-00 -> CPF\n- 23.456.789-1 -> RG\n- 11.222.333-4 -> RG\n- 87.654.321-0 -> RG\n- 55.666.777-8 -> RG\n- (41) 3222-1234 -> PHONE\n- 80240-000 -> CEP\n- 80440-000 -> CEP\n- 80010-000 -> CEP\n- 80020-310 -> CEP\n- O PEDRO ALMEIDA SOUZA -> PERSON\n- MARIA CLARA RODRIGUES PEREIRA -> PERSON",
+      "entities": [
+        {
+          "text": "123.456.789-10",
+          "type": "CPF"
+        },
+        {
+          "text": "987.654.321-00",
+          "type": "CPF"
+        },
+        {
+          "text": "23.456.789-1",
+          "type": "RG"
+        },
+        {
+          "text": "11.222.333-4",
+          "type": "RG"
+        },
+        {
+          "text": "87.654.321-0",
+          "type": "RG"
+        },
+        {
+          "text": "55.666.777-8",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3222-1234",
+          "type": "PHONE"
+        },
+        {
+          "text": "80240-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80440-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80010-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80020-310",
+          "type": "CEP"
+        },
+        {
+          "text": "O PEDRO ALMEIDA SOUZA",
+          "type": "PERSON"
+        },
+        {
+          "text": "MARIA CLARA RODRIGUES PEREIRA",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nGUILHERME ANDRÉ MACHADO, brasileiro, divorciado, empresário, CPF nº 555.666.777-88, RG nº 12.345.678-0 SSP/PR, residente e domiciliado na Rua XV de Novembro, nº 555, apto. 403, bairro Centro, Curitiba/PR, CEP 80020-000, por seus procuradores abaixo assinados, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 1.699 do Código Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE EXONERAÇÃO DE ALIMENTOS DE FILHO MAIOR\n\nem face de RAFAEL MACHADO, brasileiro, solteiro, estudante, CPF nº 888.999.000-11, RG nº 22.333.444-5 SSP/PR, residente e domiciliado na Avenida República Argentina, nº 2000, apto. 901, bairro Água Verde, Curitiba/PR, CEP 80240-000, pelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nO requerente encontra-se obrigado ao pagamento de alimentos em favor do requerido, seu filho, conforme decisão proferida nos autos nº 0005678-90.2015.8.16.0001 desta Vara de Família.\n\nAtualmente, o requerido conta com 25 anos de idade, concluiu sua graduação em Administração em dezembro de 2023 e está plenamente capacitado para exercer atividade profissional remunerada e independente.\n\nII – DO DIREITO\n\nO artigo 1.699 do Código Civil estabelece que a obrigação alimentar pode ser revista quando modificada a situação financeira das partes, especialmente quando o alimentado atinge capacidade para prover seu próprio sustento.\n\nConsiderando a capacidade atual do requerido, mostra-se plenamente justificável a exoneração definitiva da obrigação alimentar anteriormente fixada.\n\nIII – DAS PROVAS\n\nJunta-se documentação comprobatória da conclusão do curso superior e idade do requerido. Requer-se também a produção de provas adicionais que se fizerem necessárias.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer-se:\n\na) A citação do requerido para, querendo, apresentar defesa;\nb) A exoneração definitiva da obrigação alimentar anteriormente estabelecida;\nc) A produção das provas necessárias ao esclarecimento dos fatos;\nd) A concessão dos benefícios da justiça gratuita ao requerente, conforme declaração anexa;\ne) A procedência total da presente ação.\n\nDá-se à causa o valor de R$ 12.000,00 (doze mil reais).\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 21 de maio de 2024.\n\nDr. FÁBIO AUGUSTO SOARES\nOAB/PR nº 91.234\nTelefone: (41) 3344-5566\nSoares Advocacia Familiar\nRua Marechal Deodoro, nº 250, 5º andar, sala 502, Centro, Curitiba/PR, CEP 80010-010",
+      "prompt_type": "few-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization.\nExtract and classify named entities for anonymization following the examples below.\n\nExamples of entity extraction:\n\nText: \"JOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10\"\nEntities:\n- JOÃO PEDRO ALMEIDA SOUZA -> PERSON\n- 123.456.789-10 -> CPF\n\nText: \"residente na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000\"\nEntities:\n- Rua das Palmeiras, nº 123, apto. 401 -> ADDRESS\n- Água Verde -> NEIGHBORHOOD\n- Curitiba/PR -> CITY\n- 80240-000 -> CEP\n\nText: \"conta bancária nº 12345-6, agência nº 0001, Banco do Brasil\"\nEntities:\n- 12345-6, agência nº 0001 -> BANK_ACCOUNT\n- Banco do Brasil -> INSTITUTION\n\nText: \"Telefone: (41) 3222-1234\"\nEntities:\n- (41) 3222-1234 -> PHONE\n\nText: \"cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028\"\nEntities:\n- 4111 1111 1111 1111 -> CREDIT_CARD\n- 12/2028 -> DATE\n\nEntity types to identify: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nNow extract entities from this text:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nGUILHERME ANDRÉ MACHADO, brasileiro, divorciado, empresário, CPF nº 555.666.777-88, RG nº 12.345.678-0 SSP/PR, residente e domiciliado na Rua XV de Novembro, nº 555, apto. 403, bairro Centro, Curitiba/PR, CEP 80020-000, por seus procuradores abaixo assinados, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 1.699 do Código Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE EXONERAÇÃO DE ALIMENTOS DE FILHO MAIOR\n\nem face de RAFAEL MACHADO, brasileiro, solteiro, estudante, CPF nº 888.999.000-11, RG nº 22.333.444-5 SSP/PR, residente e domiciliado na Avenida República Argentina, nº 2000, apto. 901, bairro Água Verde, Curitiba/PR, CEP 80240-000, pelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nO requerente encontra-se obrigado ao pagamento de alimentos em favor do requerido, seu filho, ...\n\nExtracted entities:",
+      "response": "- 555.666.777-88 -> CPF\n- 888.999.000-11 -> CPF\n- 55.666.777-8 -> RG\n- 12.345.678-0 -> RG\n- 88.999.000-1 -> RG\n- 22.333.444-5 -> RG\n- (41) 3344-5566 -> PHONE\n- 80020-000 -> CEP\n- 80240-000 -> CEP\n- 80010-010 -> CEP\n- RAFAEL MACHADO -> PERSON",
+      "entities": [
+        {
+          "text": "555.666.777-88",
+          "type": "CPF"
+        },
+        {
+          "text": "888.999.000-11",
+          "type": "CPF"
+        },
+        {
+          "text": "55.666.777-8",
+          "type": "RG"
+        },
+        {
+          "text": "12.345.678-0",
+          "type": "RG"
+        },
+        {
+          "text": "88.999.000-1",
+          "type": "RG"
+        },
+        {
+          "text": "22.333.444-5",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3344-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80020-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80240-000",
+          "type": "CEP"
+        },
+        {
+          "text": "80010-010",
+          "type": "CEP"
+        },
+        {
+          "text": "RAFAEL MACHADO",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR DESEMBARGADOR PRESIDENTE DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DO PARANÁ\n\nImpetrante: Dr. MARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566;\n\nPaciente: RICARDO JOSÉ ALMEIDA, brasileiro, solteiro, técnico em informática, CPF nº 123.456.789-00, RG nº 10.123.456-7 SSP/PR, nascido em 15 de maio de 1990, residente e domiciliado na Rua Conselheiro Laurindo, nº 1250, apto. 503, bairro Rebouças, Curitiba/PR, CEP 80230-180, atualmente recolhido ilegalmente sob o número de identificação prisional 2024/0054321.\n\nO Impetrante acima qualificado, no exercício regular de sua profissão e com fundamento no artigo 5º, LXVIII da Constituição Federal, artigos 647 e seguintes do Código de Processo Penal, vem respeitosamente perante Vossa Excelência impetrar a presente ordem de\n\nHABEAS CORPUS\n\nEm favor do Paciente acima identificado, indicando como autoridade coatora o MM. Juiz de Direito da Vara Criminal da Comarca de Curitiba, pelas razões fáticas e jurídicas a seguir expostas:\n\nI – DOS FATOS\n\nO paciente foi preso preventivamente em 10 de maio de 2024, sob a alegação de suposta prática de furto qualificado, conforme decisão proferida pelo juízo da Vara Criminal da Comarca de Curitiba, nos autos do processo nº 0023456-78.2024.8.16.0001.\n\nContudo, verifica-se flagrante ilegalidade na decretação da prisão preventiva, uma vez que não há elementos concretos nos autos que justifiquem a segregação cautelar do paciente, tampouco indícios suficientes que demonstrem o risco à ordem pública, econômica ou a instrução criminal.\n\nII – DO DIREITO\n\nConforme preceitua o artigo 312 do Código de Processo Penal, a prisão preventiva só poderá ser decretada mediante fundamentação concreta e existência de requisitos legais específicos, quais sejam garantia da ordem pública, ordem econômica, conveniência da instrução criminal ou aplicação da lei penal.\n\nNa hipótese presente, inexiste justificativa plausível ou concreta que sustente a prisão preventiva. Não há antecedentes criminais do paciente, possui residência fixa e atividade profissional lícita, fatores que afastam a necessidade de medida cautelar extrema.\n\nIII – DAS PROVAS\n\nRequer-se a juntada dos documentos pessoais do paciente, comprovante de residência, comprovante de emprego, bem como cópia integral do processo originário.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer o Impetrante:\n\na) A concessão liminar da ordem de Habeas Corpus, determinando a imediata soltura do paciente;\nb) Seja oficiada a autoridade apontada como coatora para prestar as informações necessárias no prazo legal;\nc) Seja dado vista ao Ministério Público;\nd) No mérito, a confirmação da ordem liminar concedida, tornando definitiva a liberdade do paciente;\ne) A juntada dos documentos anexados à presente impetração.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 22 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+      "prompt_type": "few-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization.\nExtract and classify named entities for anonymization following the examples below.\n\nExamples of entity extraction:\n\nText: \"JOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10\"\nEntities:\n- JOÃO PEDRO ALMEIDA SOUZA -> PERSON\n- 123.456.789-10 -> CPF\n\nText: \"residente na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000\"\nEntities:\n- Rua das Palmeiras, nº 123, apto. 401 -> ADDRESS\n- Água Verde -> NEIGHBORHOOD\n- Curitiba/PR -> CITY\n- 80240-000 -> CEP\n\nText: \"conta bancária nº 12345-6, agência nº 0001, Banco do Brasil\"\nEntities:\n- 12345-6, agência nº 0001 -> BANK_ACCOUNT\n- Banco do Brasil -> INSTITUTION\n\nText: \"Telefone: (41) 3222-1234\"\nEntities:\n- (41) 3222-1234 -> PHONE\n\nText: \"cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028\"\nEntities:\n- 4111 1111 1111 1111 -> CREDIT_CARD\n- 12/2028 -> DATE\n\nEntity types to identify: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nNow extract entities from this text:\nEXCELENTÍSSIMO SENHOR DOUTOR DESEMBARGADOR PRESIDENTE DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DO PARANÁ\n\nImpetrante: Dr. MARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566;\n\nPaciente: RICARDO JOSÉ ALMEIDA, brasileiro, solteiro, técnico em informática, CPF nº 123.456.789-00, RG nº 10.123.456-7 SSP/PR, nascido em 15 de maio de 1990, residente e domiciliado na Rua Conselheiro Laurindo, nº 1250, apto. 503, bairro Rebouças, Curitiba/PR, CEP 80230-180, atualmente recolhido ilegalmente sob o número de identificação prisional 2024/0054321.\n\nO Impetrante acima qualificado, no exercício regular de sua profissão e com fundamento no artigo 5º, LXVIII da Constituição Federal, artigos 647 e seguintes do Código de Processo Penal, vem respeitosamente perante Vossa Excelência impetrar a presente ordem de\n\nHABEAS CORPUS\n\nEm favor ...\n\nExtracted entities:",
+      "response": "- 123.456.789-00 -> CPF\n- 23.456.789-0 -> RG\n- 10.123.456-7 -> RG\n- (41) 3322-5566 -> PHONE\n- (41) 3322-5566 -> PHONE\n- 80410-201 -> CEP\n- 80230-180 -> CEP\n- 80410-201 -> CEP\n- MARCELO AUGUSTO VIEIRA -> PERSON",
+      "entities": [
+        {
+          "text": "123.456.789-00",
+          "type": "CPF"
+        },
+        {
+          "text": "23.456.789-0",
+          "type": "RG"
+        },
+        {
+          "text": "10.123.456-7",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "80230-180",
+          "type": "CEP"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "MARCELO AUGUSTO VIEIRA",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 310, inciso III, e artigo 319 do Código de Processo Penal, propor o presente pedido de\n\nLIBERDADE PROVISÓRIA CUMULADA COM MEDIDAS CAUTELARES\n\nem favor de LUCAS FERREIRA DOS SANTOS, brasileiro, solteiro, vendedor, CPF nº 112.233.445-56, RG nº 12.345.678-9 SSP/PR, nascido em 25 de março de 1992, residente e domiciliado na Avenida Sete de Setembro, nº 1440, apto. 502, bairro Centro, Curitiba/PR, CEP 80060-070, atualmente custodiado sob número de identificação prisional 2024/0065432, pelas razões de fato e de direito a seguir expostas:\n\nI – DOS FATOS\n\nO acusado foi preso em flagrante no dia 16 de maio de 2024, acusado do crime previsto no artigo 157, caput, do Código Penal (roubo simples). O flagrante foi regularmente lavrado e homologado, porém não há elementos que justifiquem a manutenção da prisão preventiva, considerando que o acusado é primário, possui residência fixa e atividade laboral comprovada.\n\nII – DO DIREITO\n\nNos termos do artigo 310, inciso III, do Código de Processo Penal, verificada a ausência dos requisitos que autorizam a prisão preventiva, deverá ser concedida a liberdade provisória ao acusado, condicionada às medidas cautelares previstas no artigo 319 do mesmo código.\n\nNo presente caso, o acusado atende a todas as condições legais para responder ao processo em liberdade, sendo suficiente a aplicação de medidas cautelares alternativas à prisão.\n\nIII – DAS MEDIDAS CAUTELARES\n\nPropõe-se a aplicação das seguintes medidas cautelares previstas no artigo 319 do Código de Processo Penal:\n\na) Comparecimento mensal em juízo para informar e justificar atividades;\nb) Proibição de se ausentar da comarca sem autorização judicial prévia;\nc) Recolhimento domiciliar no período noturno e em dias de folga;\nd) Proibição de frequentar determinados lugares relacionados ao fato investigado.\n\nIV – DAS PROVAS\n\nRequer-se a juntada dos documentos pessoais do acusado, comprovantes de residência e vínculo empregatício, bem como quaisquer outros documentos pertinentes.\n\nV – DOS PEDIDOS\n\nAnte o exposto, requer-se:\n\na) A concessão da liberdade provisória mediante a imposição das medidas cautelares propostas;\nb) A expedição do competente alvará de soltura;\nc) Seja dada vista ao Ministério Público;\nd) A produção das provas necessárias para demonstrar os fatos alegados;\ne) A concessão dos benefícios da justiça gratuita ao acusado, conforme declaração anexa;\nf) A procedência total deste pedido.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 24 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+      "prompt_type": "few-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization.\nExtract and classify named entities for anonymization following the examples below.\n\nExamples of entity extraction:\n\nText: \"JOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10\"\nEntities:\n- JOÃO PEDRO ALMEIDA SOUZA -> PERSON\n- 123.456.789-10 -> CPF\n\nText: \"residente na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000\"\nEntities:\n- Rua das Palmeiras, nº 123, apto. 401 -> ADDRESS\n- Água Verde -> NEIGHBORHOOD\n- Curitiba/PR -> CITY\n- 80240-000 -> CEP\n\nText: \"conta bancária nº 12345-6, agência nº 0001, Banco do Brasil\"\nEntities:\n- 12345-6, agência nº 0001 -> BANK_ACCOUNT\n- Banco do Brasil -> INSTITUTION\n\nText: \"Telefone: (41) 3222-1234\"\nEntities:\n- (41) 3222-1234 -> PHONE\n\nText: \"cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028\"\nEntities:\n- 4111 1111 1111 1111 -> CREDIT_CARD\n- 12/2028 -> DATE\n\nEntity types to identify: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nNow extract entities from this text:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 310, inciso III, e artigo 319 do Código de Processo Penal, propor o presente pedido de\n\nLIBERDADE PROVISÓRIA CUMULADA COM MEDIDAS CAUTELARES\n\nem favor de LUCAS FERREIRA DOS SANTOS, brasileiro, solteiro, vendedor, CPF nº 112.233.445-56, RG nº 12.345.678-9 SSP/PR, nascido em 25 de março de 1992, residente e domiciliado na Avenida Sete de Setembro, nº 1440, apto. 502, bairro Centro, Curitiba/PR, CEP 80060-070, atualmente custodiado sob número de identificação prisional 2024/0065432, pelas razões de fato e de direito a seguir expostas:\n\nI – DOS FATOS\n\nO acusado...\n\nExtracted entities:",
+      "response": "- 112.233.445-56 -> CPF\n- 12.233.445-5 -> RG\n- 12.345.678-9 -> RG\n- (41) 3322-5566 -> PHONE\n- (41) 3322-5566 -> PHONE\n- 80410-201 -> CEP\n- 80060-070 -> CEP\n- 80410-201 -> CEP\n- MARCELO AUGUSTO VIEIRA -> PERSON\n- LUCAS FERREIRA DOS SANTOS -> PERSON",
+      "entities": [
+        {
+          "text": "112.233.445-56",
+          "type": "CPF"
+        },
+        {
+          "text": "12.233.445-5",
+          "type": "RG"
+        },
+        {
+          "text": "12.345.678-9",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "80060-070",
+          "type": "CEP"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "MARCELO AUGUSTO VIEIRA",
+          "type": "PERSON"
+        },
+        {
+          "text": "LUCAS FERREIRA DOS SANTOS",
+          "type": "PERSON"
+        }
+      ]
+    },
+    {
+      "text": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 5º, inciso LXV, da Constituição Federal e artigos 310, inciso I, e 648, inciso II, do Código de Processo Penal, requerer o presente\n\nRELAXAMENTO DE PRISÃO EM FLAGRANTE\n\nem favor de EDUARDO SILVA BARROS, brasileiro, solteiro, estudante, CPF nº 987.654.321-00, RG nº 99.888.777-6 SSP/PR, nascido em 20 de julho de 1996, residente e domiciliado na Rua Engenheiros Rebouças, nº 1020, apto. 802, bairro Rebouças, Curitiba/PR, CEP 80215-100, atualmente custodiado sob número de identificação prisional 2024/0056789, pelas razões a seguir expostas:\n\nI – DOS FATOS\nO acusado foi preso em flagrante no dia 15 de maio de 2024, sob a acusação de suposto crime de tráfico de drogas. Entretanto, o Auto de Prisão em Flagrante não apresenta justificativa legal válida, estando eivado de irregularidades, visto que não foram observados os requisitos essenciais para a configuração do flagrante.\n\nA prisão ocorreu quando o acusado transitava normalmente pela via pública, sem portar qualquer substância ilícita ou apresentar conduta que configurasse suspeita razoável para abordagem policial.\n\nII – DO DIREITO\nNos termos do artigo 5º, inciso LXV da Constituição Federal, a prisão ilegal será imediatamente relaxada pela autoridade judiciária. O artigo 310, inciso I, do Código de Processo Penal reforça que a prisão em flagrante deve ser relaxada quando constatada sua ilegalidade.\n\nNo presente caso, verifica-se que a prisão ocorreu sem fundamentação jurídica válida e sem observância dos requisitos legais necessários para caracterização da flagrância. Ademais, o acusado possui residência fixa, ocupação lícita e bons antecedentes.\n\nIII – DAS PROVAS\nRequer-se a juntada dos documentos pessoais do acusado, comprovantes de residência e matrícula escolar, e depoimentos testemunhais que comprovem a irregularidade da prisão.\n\nIV – DOS PEDIDOS\nDiante do exposto, requer-se:\n\na) O relaxamento imediato da prisão ilegal do acusado;\nb) A expedição do competente alvará de soltura;\nc) Seja oficiado o responsável pela unidade prisional para cumprimento imediato;\nd) Seja dada vista ao Ministério Público;\ne) A produção de todas as provas necessárias para demonstrar os fatos alegados;\nf) A concessão dos benefícios da justiça gratuita ao acusado, conforme declaração anexa;\ng) A procedência total deste pedido.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 23 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+      "prompt_type": "few-shot",
+      "prompt": "You are an expert in Brazilian legal document analysis and anonymization.\nExtract and classify named entities for anonymization following the examples below.\n\nExamples of entity extraction:\n\nText: \"JOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10\"\nEntities:\n- JOÃO PEDRO ALMEIDA SOUZA -> PERSON\n- 123.456.789-10 -> CPF\n\nText: \"residente na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000\"\nEntities:\n- Rua das Palmeiras, nº 123, apto. 401 -> ADDRESS\n- Água Verde -> NEIGHBORHOOD\n- Curitiba/PR -> CITY\n- 80240-000 -> CEP\n\nText: \"conta bancária nº 12345-6, agência nº 0001, Banco do Brasil\"\nEntities:\n- 12345-6, agência nº 0001 -> BANK_ACCOUNT\n- Banco do Brasil -> INSTITUTION\n\nText: \"Telefone: (41) 3222-1234\"\nEntities:\n- (41) 3222-1234 -> PHONE\n\nText: \"cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028\"\nEntities:\n- 4111 1111 1111 1111 -> CREDIT_CARD\n- 12/2028 -> DATE\n\nEntity types to identify: PERSON, CPF, RG, CNPJ, OAB, PHONE, EMAIL, ADDRESS, STREET, NEIGHBORHOOD, CITY, STATE, CEP, BANK_ACCOUNT, CREDIT_CARD, FINANCIAL_VALUE, PROCESS_NUMBER, COMPANY, INSTITUTION, LICENSE_PLATE, DATE, AGE, DOCUMENT_NUMBER, BENEFIT_NUMBER\n\nNow extract entities from this text:\nEXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 5º, inciso LXV, da Constituição Federal e artigos 310, inciso I, e 648, inciso II, do Código de Processo Penal, requerer o presente\n\nRELAXAMENTO DE PRISÃO EM FLAGRANTE\n\nem favor de EDUARDO SILVA BARROS, brasileiro, solteiro, estudante, CPF nº 987.654.321-00, RG nº 99.888.777-6 SSP/PR, nascido em 20 de julho de 1996, residente e domiciliado na Rua Engenheiros Rebouças, nº 1020, apto. 802, bairro Rebouças, Curitiba/PR, CEP 80215-100, atualmente custodiado sob número de identificação prisional 2024/0056789, pelas razões a seguir expostas:\n\nI – DOS FATOS\nO acus...\n\nExtracted entities:",
+      "response": "- 987.654.321-00 -> CPF\n- 87.654.321-0 -> RG\n- 99.888.777-6 -> RG\n- (41) 3322-5566 -> PHONE\n- (41) 3322-5566 -> PHONE\n- 80410-201 -> CEP\n- 80215-100 -> CEP\n- 80410-201 -> CEP\n- MARCELO AUGUSTO VIEIRA -> PERSON\n- EDUARDO SILVA BARROS -> PERSON",
+      "entities": [
+        {
+          "text": "987.654.321-00",
+          "type": "CPF"
+        },
+        {
+          "text": "87.654.321-0",
+          "type": "RG"
+        },
+        {
+          "text": "99.888.777-6",
+          "type": "RG"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "(41) 3322-5566",
+          "type": "PHONE"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "80215-100",
+          "type": "CEP"
+        },
+        {
+          "text": "80410-201",
+          "type": "CEP"
+        },
+        {
+          "text": "MARCELO AUGUSTO VIEIRA",
+          "type": "PERSON"
+        },
+        {
+          "text": "EDUARDO SILVA BARROS",
+          "type": "PERSON"
+        }
+      ]
+    }
+  ]
+}

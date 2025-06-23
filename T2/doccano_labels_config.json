@@ -1,0 +1,170 @@
+[
+  {
+    "text": "PERSON",
+    "prefix_key": "per",
+    "suffix_key": null,
+    "background_color": "#FF6B6B",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "CPF",
+    "prefix_key": "cpf",
+    "suffix_key": null,
+    "background_color": "#4ECDC4",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "RG",
+    "prefix_key": "rg",
+    "suffix_key": null,
+    "background_color": "#45B7D1",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "CNPJ",
+    "prefix_key": "cnp",
+    "suffix_key": null,
+    "background_color": "#96CEB4",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "OAB",
+    "prefix_key": "oab",
+    "suffix_key": null,
+    "background_color": "#FFEAA7",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "PHONE",
+    "prefix_key": "pho",
+    "suffix_key": null,
+    "background_color": "#DDA0DD",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "EMAIL",
+    "prefix_key": "ema",
+    "suffix_key": null,
+    "background_color": "#98D8C8",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "ADDRESS",
+    "prefix_key": "add",
+    "suffix_key": null,
+    "background_color": "#F7DC6F",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "STREET",
+    "prefix_key": "str",
+    "suffix_key": null,
+    "background_color": "#BB8FCE",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "NEIGHBORHOOD",
+    "prefix_key": "nei",
+    "suffix_key": null,
+    "background_color": "#85C1E9",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "CITY",
+    "prefix_key": "cit",
+    "suffix_key": null,
+    "background_color": "#82E0AA",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "STATE",
+    "prefix_key": "sta",
+    "suffix_key": null,
+    "background_color": "#F8C471",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "CEP",
+    "prefix_key": "cep",
+    "suffix_key": null,
+    "background_color": "#D7BDE2",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "BANK_ACCOUNT",
+    "prefix_key": "ban",
+    "suffix_key": null,
+    "background_color": "#A9DFBF",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "CREDIT_CARD",
+    "prefix_key": "cre",
+    "suffix_key": null,
+    "background_color": "#F9E79F",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "FINANCIAL_VALUE",
+    "prefix_key": "fin",
+    "suffix_key": null,
+    "background_color": "#FAD7A0",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "PROCESS_NUMBER",
+    "prefix_key": "pro",
+    "suffix_key": null,
+    "background_color": "#AED6F1",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "COMPANY",
+    "prefix_key": "com",
+    "suffix_key": null,
+    "background_color": "#A3E4D7",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "INSTITUTION",
+    "prefix_key": "ins",
+    "suffix_key": null,
+    "background_color": "#D5A6BD",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "LICENSE_PLATE",
+    "prefix_key": "lic",
+    "suffix_key": null,
+    "background_color": "#C39BD3",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "DATE",
+    "prefix_key": "dat",
+    "suffix_key": null,
+    "background_color": "#F1C40F",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "AGE",
+    "prefix_key": "age",
+    "suffix_key": null,
+    "background_color": "#E74C3C",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "DOCUMENT_NUMBER",
+    "prefix_key": "doc",
+    "suffix_key": null,
+    "background_color": "#3498DB",
+    "text_color": "#FFFFFF"
+  },
+  {
+    "text": "BENEFIT_NUMBER",
+    "prefix_key": "ben",
+    "suffix_key": null,
+    "background_color": "#2ECC71",
+    "text_color": "#FFFFFF"
+  }
+]

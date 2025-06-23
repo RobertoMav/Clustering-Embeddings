@@ -1,0 +1,2109 @@
+{
+  "metrics": {
+    "overall": {
+      "accuracy": 0.7572,
+      "precision": 0.9034,
+      "recall": 0.7572,
+      "f1": 0.8239,
+      "total_entities": 173
+    },
+    "per_entity": {
+      "DATE": {
+        "precision": 0.96,
+        "recall": 1.0,
+        "f1": 0.9796,
+        "support": 24
+      },
+      "PHONE": {
+        "precision": 0.7692,
+        "recall": 1.0,
+        "f1": 0.8696,
+        "support": 10
+      },
+      "CEP": {
+        "precision": 0.9583,
+        "recall": 1.0,
+        "f1": 0.9787,
+        "support": 23
+      },
+      "FINANCIAL_VALUE": {
+        "precision": 0.9167,
+        "recall": 1.0,
+        "f1": 0.9565,
+        "support": 11
+      },
+      "CREDIT_CARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "BANK_ACCOUNT": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333,
+        "support": 7
+      },
+      "OAB": {
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.9474,
+        "support": 9
+      },
+      "CPF": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8889,
+        "support": 12
+      },
+      "RG": {
+        "precision": 0.9333,
+        "recall": 1.0,
+        "f1": 0.9655,
+        "support": 14
+      },
+      "PERSON": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333,
+        "support": 14
+      },
+      "ADDRESS": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 31
+      },
+      "INSTITUTION": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 11
+      },
+      "PROCESS_NUMBER": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      }
+    }
+  },
+  "predictions": [
+    [
+      {
+        "text": "O PEDRO ALMEIDA SOUZA",
+        "type": "PERSON",
+        "start": 144,
+        "end": 165
+      },
+      {
+        "text": "CPF nº 123.456.789-10",
+        "type": "CPF",
+        "start": 205,
+        "end": 226
+      },
+      {
+        "text": "RG nº 11.222.333-4 SSP",
+        "type": "RG",
+        "start": 228,
+        "end": 250
+      },
+      {
+        "text": "CEP 80240-000",
+        "type": "CEP",
+        "start": 352,
+        "end": 365
+      },
+      {
+        "text": "conta bancária nº 12345-6",
+        "type": "BANK_ACCOUNT",
+        "start": 379,
+        "end": 404
+      },
+      {
+        "text": "agência nº 0001",
+        "type": "BANK_ACCOUNT",
+        "start": 406,
+        "end": 421
+      },
+      {
+        "text": "cartão de crédito VISA nº 4111 1111 1111 1111",
+        "type": "CREDIT_CARD",
+        "start": 442,
+        "end": 487
+      },
+      {
+        "text": "MARIA CLARA RODRIGUES PEREIRA",
+        "type": "PERSON",
+        "start": 509,
+        "end": 538
+      },
+      {
+        "text": "CPF nº 987.654.321-00",
+        "type": "CPF",
+        "start": 568,
+        "end": 589
+      },
+      {
+        "text": "RG nº 55.666.777-8 SSP",
+        "type": "RG",
+        "start": 591,
+        "end": 613
+      },
+      {
+        "text": "CEP 80440-000",
+        "type": "CEP",
+        "start": 718,
+        "end": 731
+      },
+      {
+        "text": "conta bancária nº 98765-4",
+        "type": "BANK_ACCOUNT",
+        "start": 746,
+        "end": 771
+      },
+      {
+        "text": "agência nº 0002",
+        "type": "BANK_ACCOUNT",
+        "start": 773,
+        "end": 788
+      },
+      {
+        "text": "cartão de crédito Mastercard nº 5500 0000 0000 0004",
+        "type": "CREDIT_CARD",
+        "start": 817,
+        "end": 868
+      },
+      {
+        "text": "10 de março de 2012",
+        "type": "DATE",
+        "start": 1315,
+        "end": 1334
+      },
+      {
+        "text": "15 de julho de 2014",
+        "type": "DATE",
+        "start": 1456,
+        "end": 1475
+      },
+      {
+        "text": "22 de novembro de 2017",
+        "type": "DATE",
+        "start": 1514,
+        "end": 1536
+      },
+      {
+        "text": "R$ 2.500,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2193,
+        "end": 2204
+      },
+      {
+        "text": "CEP 80010-000",
+        "type": "CEP",
+        "start": 2529,
+        "end": 2542
+      },
+      {
+        "text": "R$ 600.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2556,
+        "end": 2569
+      },
+      {
+        "text": "R$ 90.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2729,
+        "end": 2741
+      },
+      {
+        "text": "R$ 45.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3006,
+        "end": 3018
+      },
+      {
+        "text": "R$ 690.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 4138,
+        "end": 4151
+      },
+      {
+        "text": "10 de maio de 2024",
+        "type": "DATE",
+        "start": 4231,
+        "end": 4249
+      },
+      {
+        "text": "OAB/PR nº 12",
+        "type": "OAB",
+        "start": 4284,
+        "end": 4296
+      },
+      {
+        "text": "Telefone: (41) 3222-1234",
+        "type": "PHONE",
+        "start": 4300,
+        "end": 4324
+      },
+      {
+        "text": "CEP 80020-310",
+        "type": "CEP",
+        "start": 4425,
+        "end": 4438
+      }
+    ],
+    [
+      {
+        "text": "CPF nº 555.666.777-88",
+        "type": "CPF",
+        "start": 202,
+        "end": 223
+      },
+      {
+        "text": "RG nº 12.345.678-0 SSP",
+        "type": "RG",
+        "start": 225,
+        "end": 247
+      },
+      {
+        "text": "CEP 80020-000",
+        "type": "CEP",
+        "start": 346,
+        "end": 359
+      },
+      {
+        "text": "RAFAEL MACHADO",
+        "type": "PERSON",
+        "start": 613,
+        "end": 627
+      },
+      {
+        "text": "CPF nº 888.999.000-11",
+        "type": "CPF",
+        "start": 662,
+        "end": 683
+      },
+      {
+        "text": "RG nº 22.333.444-5 SSP",
+        "type": "RG",
+        "start": 685,
+        "end": 707
+      },
+      {
+        "text": "CEP 80240-000",
+        "type": "CEP",
+        "start": 820,
+        "end": 833
+      },
+      {
+        "text": "0005678-90.2015.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 1040,
+        "end": 1065
+      },
+      {
+        "text": "R$ 12.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2281,
+        "end": 2293
+      },
+      {
+        "text": "21 de maio de 2024",
+        "type": "DATE",
+        "start": 2357,
+        "end": 2375
+      },
+      {
+        "text": "OAB/PR nº 91",
+        "type": "OAB",
+        "start": 2403,
+        "end": 2415
+      },
+      {
+        "text": "Telefone: (41) 3344-5566",
+        "type": "PHONE",
+        "start": 2420,
+        "end": 2444
+      },
+      {
+        "text": "CEP 80010-010",
+        "type": "CEP",
+        "start": 2542,
+        "end": 2555
+      }
+    ],
+    [
+      {
+        "text": "MARCELO AUGUSTO VIEIRA",
+        "type": "PERSON",
+        "start": 122,
+        "end": 144
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 309,
+        "end": 322
+      },
+      {
+        "text": "(41) 3322-5566",
+        "type": "PHONE",
+        "start": 333,
+        "end": 347
+      },
+      {
+        "text": "CPF nº 123.456.789-00",
+        "type": "CPF",
+        "start": 428,
+        "end": 449
+      },
+      {
+        "text": "RG nº 10.123.456-7 SSP",
+        "type": "RG",
+        "start": 451,
+        "end": 473
+      },
+      {
+        "text": "15 de maio de 1990",
+        "type": "DATE",
+        "start": 489,
+        "end": 507
+      },
+      {
+        "text": "CEP 80230-180",
+        "type": "CEP",
+        "start": 612,
+        "end": 625
+      },
+      {
+        "text": "10 de maio de 2024",
+        "type": "DATE",
+        "start": 1237,
+        "end": 1255
+      },
+      {
+        "text": "processo nº 0023456-78.2024.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 1405,
+        "end": 1442
+      },
+      {
+        "text": "22 de maio de 2024",
+        "type": "DATE",
+        "start": 2995,
+        "end": 3013
+      },
+      {
+        "text": "OAB/PR nº 12345",
+        "type": "OAB",
+        "start": 3043,
+        "end": 3058
+      },
+      {
+        "text": "Telefone: (41) 3322-5566",
+        "type": "PHONE",
+        "start": 3059,
+        "end": 3083
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 3172,
+        "end": 3185
+      }
+    ],
+    [
+      {
+        "text": "MARCELO AUGUSTO VIEIRA",
+        "type": "PERSON",
+        "start": 139,
+        "end": 161
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 326,
+        "end": 339
+      },
+      {
+        "text": "(41) 3322-5566",
+        "type": "PHONE",
+        "start": 350,
+        "end": 364
+      },
+      {
+        "text": "LUCAS FERREIRA DOS SANTOS",
+        "type": "PERSON",
+        "start": 591,
+        "end": 616
+      },
+      {
+        "text": "CPF nº 112.233.445-56",
+        "type": "CPF",
+        "start": 650,
+        "end": 671
+      },
+      {
+        "text": "RG nº 12.345.678-9 SSP",
+        "type": "RG",
+        "start": 673,
+        "end": 695
+      },
+      {
+        "text": "25 de março de 1992",
+        "type": "DATE",
+        "start": 711,
+        "end": 730
+      },
+      {
+        "text": "CEP 80060-070",
+        "type": "CEP",
+        "start": 833,
+        "end": 846
+      },
+      {
+        "text": "16 de maio de 2024",
+        "type": "DATE",
+        "start": 1031,
+        "end": 1049
+      },
+      {
+        "text": "24 de maio de 2024",
+        "type": "DATE",
+        "start": 2900,
+        "end": 2918
+      },
+      {
+        "text": "OAB/PR nº 12345",
+        "type": "OAB",
+        "start": 2948,
+        "end": 2963
+      },
+      {
+        "text": "Telefone: (41) 3322-5566",
+        "type": "PHONE",
+        "start": 2964,
+        "end": 2988
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 3077,
+        "end": 3090
+      }
+    ],
+    [
+      {
+        "text": "MARCELO AUGUSTO VIEIRA",
+        "type": "PERSON",
+        "start": 139,
+        "end": 161
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 326,
+        "end": 339
+      },
+      {
+        "text": "(41) 3322-5566",
+        "type": "PHONE",
+        "start": 350,
+        "end": 364
+      },
+      {
+        "text": "EDUARDO SILVA BARROS",
+        "type": "PERSON",
+        "start": 618,
+        "end": 638
+      },
+      {
+        "text": "CPF nº 987.654.321-00",
+        "type": "CPF",
+        "start": 673,
+        "end": 694
+      },
+      {
+        "text": "RG nº 99.888.777-6 SSP",
+        "type": "RG",
+        "start": 696,
+        "end": 718
+      },
+      {
+        "text": "20 de julho de 1996",
+        "type": "DATE",
+        "start": 734,
+        "end": 753
+      },
+      {
+        "text": "CEP 80215-100",
+        "type": "CEP",
+        "start": 858,
+        "end": 871
+      },
+      {
+        "text": "15 de maio de 2024",
+        "type": "DATE",
+        "start": 1034,
+        "end": 1052
+      },
+      {
+        "text": "23 de maio de 2024",
+        "type": "DATE",
+        "start": 2773,
+        "end": 2791
+      },
+      {
+        "text": "OAB/PR nº 12345",
+        "type": "OAB",
+        "start": 2821,
+        "end": 2836
+      },
+      {
+        "text": "Telefone: (41) 3322-5566",
+        "type": "PHONE",
+        "start": 2837,
+        "end": 2861
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 2950,
+        "end": 2963
+      }
+    ],
+    [
+      {
+        "text": "CAMILA OLIVEIRA FONSECA",
+        "type": "PERSON",
+        "start": 141,
+        "end": 164
+      },
+      {
+        "text": "CPF nº 567.890.123-44",
+        "type": "CPF",
+        "start": 199,
+        "end": 220
+      },
+      {
+        "text": "RG nº 33.444.555-6 SSP",
+        "type": "RG",
+        "start": 222,
+        "end": 244
+      },
+      {
+        "text": "JULIANA OLIVEIRA FONSECA",
+        "type": "PERSON",
+        "start": 301,
+        "end": 325
+      },
+      {
+        "text": "CPF nº 654.321.987-00",
+        "type": "CPF",
+        "start": 364,
+        "end": 385
+      },
+      {
+        "text": "RG nº 77.888.999-1 SSP",
+        "type": "RG",
+        "start": 387,
+        "end": 409
+      },
+      {
+        "text": "CEP 80060-000",
+        "type": "CEP",
+        "start": 517,
+        "end": 530
+      },
+      {
+        "text": "conta bancária nº 11223-4",
+        "type": "BANK_ACCOUNT",
+        "start": 545,
+        "end": 570
+      },
+      {
+        "text": "agência nº 0003",
+        "type": "BANK_ACCOUNT",
+        "start": 572,
+        "end": 587
+      },
+      {
+        "text": "MARCELO RIBEIRO VASCONCELOS",
+        "type": "PERSON",
+        "start": 863,
+        "end": 890
+      },
+      {
+        "text": "CPF nº 890.123.456-77",
+        "type": "CPF",
+        "start": 926,
+        "end": 947
+      },
+      {
+        "text": "RG nº 44.555.666-7 SSP",
+        "type": "RG",
+        "start": 949,
+        "end": 971
+      },
+      {
+        "text": "CEP 80610-010",
+        "type": "CEP",
+        "start": 1071,
+        "end": 1084
+      },
+      {
+        "text": "18 de agosto de 2006",
+        "type": "DATE",
+        "start": 1316,
+        "end": 1336
+      },
+      {
+        "text": "R$ 20.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3430,
+        "end": 3442
+      },
+      {
+        "text": "20 de maio de 2024",
+        "type": "DATE",
+        "start": 3507,
+        "end": 3525
+      },
+      {
+        "text": "OAB/PR nº 98",
+        "type": "OAB",
+        "start": 3557,
+        "end": 3569
+      },
+      {
+        "text": "Telefone: (41) 3311-7788",
+        "type": "PHONE",
+        "start": 3574,
+        "end": 3598
+      },
+      {
+        "text": "CEP 80420-300",
+        "type": "CEP",
+        "start": 3702,
+        "end": 3715
+      }
+    ],
+    [
+      {
+        "text": "FERREIRA GOMES",
+        "type": "PERSON",
+        "start": 156,
+        "end": 170
+      },
+      {
+        "text": "CPF nº 111.222.333-44",
+        "type": "CPF",
+        "start": 204,
+        "end": 225
+      },
+      {
+        "text": "RG nº 55.666.777-8 SSP",
+        "type": "RG",
+        "start": 227,
+        "end": 249
+      },
+      {
+        "text": "CEP 01001-000",
+        "type": "CEP",
+        "start": 346,
+        "end": 359
+      },
+      {
+        "text": "conta bancária nº 33445-6",
+        "type": "BANK_ACCOUNT",
+        "start": 374,
+        "end": 399
+      },
+      {
+        "text": "agência nº 5555",
+        "type": "BANK_ACCOUNT",
+        "start": 401,
+        "end": 416
+      },
+      {
+        "text": "CARLOS ROBERTO FERREIRA GOMES",
+        "type": "PERSON",
+        "start": 484,
+        "end": 513
+      },
+      {
+        "text": "CPF nº 999.888.777-66",
+        "type": "CPF",
+        "start": 547,
+        "end": 568
+      },
+      {
+        "text": "RG nº 22.111.000-9 SSP",
+        "type": "RG",
+        "start": 570,
+        "end": 592
+      },
+      {
+        "text": "R$ 5.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 1802,
+        "end": 1813
+      },
+      {
+        "text": "R$ 60.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2753,
+        "end": 2765
+      },
+      {
+        "text": "16 de maio de 2024",
+        "type": "DATE",
+        "start": 2834,
+        "end": 2852
+      },
+      {
+        "text": "OAB/SP nº 67",
+        "type": "OAB",
+        "start": 2880,
+        "end": 2892
+      },
+      {
+        "text": "Telefone: (11) 3333-6677",
+        "type": "PHONE",
+        "start": 2897,
+        "end": 2921
+      },
+      {
+        "text": "CEP 01001-010",
+        "type": "CEP",
+        "start": 3022,
+        "end": 3035
+      }
+    ],
+    [
+      {
+        "text": "LUIZ CARLOS MENDES",
+        "type": "PERSON",
+        "start": 151,
+        "end": 169
+      },
+      {
+        "text": "CPF nº 123.456.789-10",
+        "type": "CPF",
+        "start": 205,
+        "end": 226
+      },
+      {
+        "text": "RG nº 11.222.333-4 SSP",
+        "type": "RG",
+        "start": 228,
+        "end": 250
+      },
+      {
+        "text": "CEP 80010-100",
+        "type": "CEP",
+        "start": 346,
+        "end": 359
+      },
+      {
+        "text": "15 de março de 2020",
+        "type": "DATE",
+        "start": 738,
+        "end": 757
+      },
+      {
+        "text": "processo nº 0001234-56.2020.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 856,
+        "end": 893
+      },
+      {
+        "text": "R$ 5.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3117,
+        "end": 3128
+      },
+      {
+        "text": "25 de maio de 2024",
+        "type": "DATE",
+        "start": 3214,
+        "end": 3232
+      },
+      {
+        "text": "OAB/PR nº 23456",
+        "type": "OAB",
+        "start": 3259,
+        "end": 3274
+      },
+      {
+        "text": "Telefone: (41) 3344-1122",
+        "type": "PHONE",
+        "start": 3275,
+        "end": 3299
+      },
+      {
+        "text": "CEP 80410-300",
+        "type": "CEP",
+        "start": 3405,
+        "end": 3418
+      }
+    ],
+    [
+      {
+        "text": "CARLOS EDUARDO MENDES SILVA",
+        "type": "PERSON",
+        "start": 139,
+        "end": 166
+      },
+      {
+        "text": "CPF nº 222.333.444-55",
+        "type": "CPF",
+        "start": 200,
+        "end": 221
+      },
+      {
+        "text": "RG nº 12.345.678-9 SSP",
+        "type": "RG",
+        "start": 223,
+        "end": 245
+      },
+      {
+        "text": "05 de abril de 1985",
+        "type": "DATE",
+        "start": 261,
+        "end": 280
+      },
+      {
+        "text": "CEP 80420-120",
+        "type": "CEP",
+        "start": 374,
+        "end": 387
+      },
+      {
+        "text": "processo nº 0009876-54.2020.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 768,
+        "end": 805
+      },
+      {
+        "text": "15 de março de 2020",
+        "type": "DATE",
+        "start": 832,
+        "end": 851
+      },
+      {
+        "text": "R$ 5.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2911,
+        "end": 2922
+      },
+      {
+        "text": "28 de maio de 2024",
+        "type": "DATE",
+        "start": 3008,
+        "end": 3026
+      },
+      {
+        "text": "OAB/PR nº 56",
+        "type": "OAB",
+        "start": 3054,
+        "end": 3066
+      },
+      {
+        "text": "Telefone: (41) 3311-3344",
+        "type": "PHONE",
+        "start": 3071,
+        "end": 3095
+      },
+      {
+        "text": "CEP 80410-400",
+        "type": "CEP",
+        "start": 3218,
+        "end": 3231
+      }
+    ],
+    [
+      {
+        "text": "LUIS BARBOSA PEREIRA",
+        "type": "PERSON",
+        "start": 145,
+        "end": 165
+      },
+      {
+        "text": "CPF nº 321.654.987-10",
+        "type": "CPF",
+        "start": 203,
+        "end": 224
+      },
+      {
+        "text": "RG nº 22.333.444-5 SSP",
+        "type": "RG",
+        "start": 226,
+        "end": 248
+      },
+      {
+        "text": "10 de fevereiro de 1980",
+        "type": "DATE",
+        "start": 264,
+        "end": 287
+      },
+      {
+        "text": "CEP 80240-000",
+        "type": "CEP",
+        "start": 379,
+        "end": 392
+      },
+      {
+        "text": "05 de junho de 2018",
+        "type": "DATE",
+        "start": 834,
+        "end": 853
+      },
+      {
+        "text": "processo nº 0004321-98.2018.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 936,
+        "end": 973
+      },
+      {
+        "text": "R$ 8.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3535,
+        "end": 3546
+      },
+      {
+        "text": "26 de maio de 2024",
+        "type": "DATE",
+        "start": 3631,
+        "end": 3649
+      },
+      {
+        "text": "OAB/PR nº 67",
+        "type": "OAB",
+        "start": 3678,
+        "end": 3690
+      },
+      {
+        "text": "Telefone: (41) 3322-7788",
+        "type": "PHONE",
+        "start": 3695,
+        "end": 3719
+      },
+      {
+        "text": "CEP 80410-350",
+        "type": "CEP",
+        "start": 3841,
+        "end": 3854
+      }
+    ]
+  ],
+  "ground_truth": [
+    [
+      {
+        "text": "10 de março de 2012",
+        "type": "DATE",
+        "start": 1315,
+        "end": 1334
+      },
+      {
+        "text": "Telefone: (41) 3222-1234",
+        "type": "PHONE",
+        "start": 4300,
+        "end": 4324
+      },
+      {
+        "text": "R$ 690.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 4138,
+        "end": 4151
+      },
+      {
+        "text": "CEP 80440-000",
+        "type": "CEP",
+        "start": 718,
+        "end": 731
+      },
+      {
+        "text": "MARIA CLARA RODRIGUES PEREIRA",
+        "type": "PERSON",
+        "start": 509,
+        "end": 538
+      },
+      {
+        "text": "CPF nº 123.456.789-10",
+        "type": "CPF",
+        "start": 205,
+        "end": 226
+      },
+      {
+        "text": "CEP 80240-000",
+        "type": "CEP",
+        "start": 352,
+        "end": 365
+      },
+      {
+        "text": "conta bancária nº 12345-6",
+        "type": "BANK_ACCOUNT",
+        "start": 379,
+        "end": 404
+      },
+      {
+        "text": "15 de julho de 2014",
+        "type": "DATE",
+        "start": 1456,
+        "end": 1475
+      },
+      {
+        "text": "O PEDRO ALMEIDA SOUZA",
+        "type": "PERSON",
+        "start": 144,
+        "end": 165
+      },
+      {
+        "text": "R$ 600.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2556,
+        "end": 2569
+      },
+      {
+        "text": "cartão de crédito VISA nº 4111 1111 1111 1111",
+        "type": "CREDIT_CARD",
+        "start": 442,
+        "end": 487
+      },
+      {
+        "text": "22 de novembro de 2017",
+        "type": "DATE",
+        "start": 1514,
+        "end": 1536
+      },
+      {
+        "text": "agência nº 0001",
+        "type": "BANK_ACCOUNT",
+        "start": 406,
+        "end": 421
+      },
+      {
+        "text": "cartão de crédito Mastercard nº 5500 0000 0000 0004",
+        "type": "CREDIT_CARD",
+        "start": 817,
+        "end": 868
+      },
+      {
+        "text": "agência nº 0002",
+        "type": "BANK_ACCOUNT",
+        "start": 773,
+        "end": 788
+      },
+      {
+        "text": "RG nº 55.666.777-8 SSP",
+        "type": "RG",
+        "start": 591,
+        "end": 613
+      },
+      {
+        "text": "10 de maio de 2024",
+        "type": "DATE",
+        "start": 4231,
+        "end": 4249
+      },
+      {
+        "text": "CEP 80020-310",
+        "type": "CEP",
+        "start": 4425,
+        "end": 4438
+      },
+      {
+        "text": "R$ 90.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2729,
+        "end": 2741
+      },
+      {
+        "text": "R$ 45.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3006,
+        "end": 3018
+      },
+      {
+        "text": "RG nº 11.222.333-4 SSP",
+        "type": "RG",
+        "start": 228,
+        "end": 250
+      },
+      {
+        "text": "R$ 2.500,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2193,
+        "end": 2204
+      },
+      {
+        "text": "CEP 80010-000",
+        "type": "CEP",
+        "start": 2529,
+        "end": 2542
+      },
+      {
+        "text": "OAB/PR nº 12",
+        "type": "OAB",
+        "start": 4284,
+        "end": 4296
+      },
+      {
+        "text": "Rua das Palmeiras, nº 123, apto. 401",
+        "type": "ADDRESS",
+        "start": 282,
+        "end": 318
+      },
+      {
+        "text": "Avenida Sete de Setembro, nº 4567, apto. 102",
+        "type": "ADDRESS",
+        "start": 645,
+        "end": 689
+      },
+      {
+        "text": "Rua das Flores, nº 890, apto. 1502",
+        "type": "ADDRESS",
+        "start": 2465,
+        "end": 2499
+      },
+      {
+        "text": "Rua XV de Novembro, nº 250",
+        "type": "ADDRESS",
+        "start": 4356,
+        "end": 4382
+      },
+      {
+        "text": "domiciliado na Rua das Palmeiras, nº 123",
+        "type": "ADDRESS",
+        "start": 267,
+        "end": 307
+      },
+      {
+        "text": "domiciliada na Avenida Sete de Setembro, nº 4567",
+        "type": "ADDRESS",
+        "start": 630,
+        "end": 678
+      },
+      {
+        "text": "Banco do Brasil",
+        "type": "INSTITUTION",
+        "start": 423,
+        "end": 438
+      },
+      {
+        "text": "Ministério P",
+        "type": "INSTITUTION",
+        "start": 4051,
+        "end": 4063
+      },
+      {
+        "text": "Cartório de Registro de Im",
+        "type": "INSTITUTION",
+        "start": 2608,
+        "end": 2634
+      }
+    ],
+    [
+      {
+        "text": "21 de maio de 2024",
+        "type": "DATE",
+        "start": 2357,
+        "end": 2375
+      },
+      {
+        "text": "OAB/PR nº 91",
+        "type": "OAB",
+        "start": 2403,
+        "end": 2415
+      },
+      {
+        "text": "CEP 80020-000",
+        "type": "CEP",
+        "start": 346,
+        "end": 359
+      },
+      {
+        "text": "Telefone: (41) 3344-5566",
+        "type": "PHONE",
+        "start": 2420,
+        "end": 2444
+      },
+      {
+        "text": "CEP 80240-000",
+        "type": "CEP",
+        "start": 820,
+        "end": 833
+      },
+      {
+        "text": "CPF nº 555.666.777-88",
+        "type": "CPF",
+        "start": 202,
+        "end": 223
+      },
+      {
+        "text": "RG nº 12.345.678-0 SSP",
+        "type": "RG",
+        "start": 225,
+        "end": 247
+      },
+      {
+        "text": "0005678-90.2015.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 1040,
+        "end": 1065
+      },
+      {
+        "text": "CEP 80010-010",
+        "type": "CEP",
+        "start": 2542,
+        "end": 2555
+      },
+      {
+        "text": "CPF nº 888.999.000-11",
+        "type": "CPF",
+        "start": 662,
+        "end": 683
+      },
+      {
+        "text": "Rua XV de Novembro, nº 555, apto. 403",
+        "type": "ADDRESS",
+        "start": 279,
+        "end": 316
+      },
+      {
+        "text": "Rua Marechal Deodoro, nº 250",
+        "type": "ADDRESS",
+        "start": 2471,
+        "end": 2499
+      },
+      {
+        "text": "domiciliado na Rua XV de Novembro, nº 555",
+        "type": "ADDRESS",
+        "start": 264,
+        "end": 305
+      },
+      {
+        "text": "domiciliado na Avenida República Argentina, nº 2000",
+        "type": "ADDRESS",
+        "start": 724,
+        "end": 775
+      }
+    ],
+    [
+      {
+        "text": "CEP 80230-180",
+        "type": "CEP",
+        "start": 612,
+        "end": 625
+      },
+      {
+        "text": "processo nº 0023456-78.2024.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 1405,
+        "end": 1442
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 309,
+        "end": 322
+      },
+      {
+        "text": "15 de maio de 1990",
+        "type": "DATE",
+        "start": 489,
+        "end": 507
+      },
+      {
+        "text": "22 de maio de 2024",
+        "type": "DATE",
+        "start": 2995,
+        "end": 3013
+      },
+      {
+        "text": "RG nº 10.123.456-7 SSP",
+        "type": "RG",
+        "start": 451,
+        "end": 473
+      },
+      {
+        "text": "MARCELO AUGUSTO VIEIRA",
+        "type": "PERSON",
+        "start": 122,
+        "end": 144
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 3172,
+        "end": 3185
+      },
+      {
+        "text": "(41) 3322-5566",
+        "type": "PHONE",
+        "start": 333,
+        "end": 347
+      },
+      {
+        "text": "OAB/PR nº 12345",
+        "type": "OAB",
+        "start": 3043,
+        "end": 3058
+      },
+      {
+        "text": "Telefone: (41) 3322-5566",
+        "type": "PHONE",
+        "start": 3059,
+        "end": 3083
+      },
+      {
+        "text": "10 de maio de 2024",
+        "type": "DATE",
+        "start": 1237,
+        "end": 1255
+      },
+      {
+        "text": "Rua Visconde de Nacar, nº 345",
+        "type": "ADDRESS",
+        "start": 240,
+        "end": 269
+      },
+      {
+        "text": "Rua Conselheiro Laurindo, nº 1250, apto. 503",
+        "type": "ADDRESS",
+        "start": 536,
+        "end": 580
+      },
+      {
+        "text": "Rua Visconde de Nacar, nº 345",
+        "type": "ADDRESS",
+        "start": 3110,
+        "end": 3139
+      },
+      {
+        "text": "domiciliado na Rua Conselheiro Laurindo, nº 1250",
+        "type": "ADDRESS",
+        "start": 521,
+        "end": 569
+      },
+      {
+        "text": "Ministério P",
+        "type": "INSTITUTION",
+        "start": 2769,
+        "end": 2781
+      }
+    ],
+    [
+      {
+        "text": "CEP 80060-070",
+        "type": "CEP",
+        "start": 833,
+        "end": 846
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 326,
+        "end": 339
+      },
+      {
+        "text": "CPF nº 112.233.445-56",
+        "type": "CPF",
+        "start": 650,
+        "end": 671
+      },
+      {
+        "text": "16 de maio de 2024",
+        "type": "DATE",
+        "start": 1031,
+        "end": 1049
+      },
+      {
+        "text": "Telefone: (41) 3322-5566",
+        "type": "PHONE",
+        "start": 2964,
+        "end": 2988
+      },
+      {
+        "text": "24 de maio de 2024",
+        "type": "DATE",
+        "start": 2900,
+        "end": 2918
+      },
+      {
+        "text": "RG nº 12.345.678-9 SSP",
+        "type": "RG",
+        "start": 673,
+        "end": 695
+      },
+      {
+        "text": "OAB/PR nº 12345",
+        "type": "OAB",
+        "start": 2948,
+        "end": 2963
+      },
+      {
+        "text": "MARCELO AUGUSTO VIEIRA",
+        "type": "PERSON",
+        "start": 139,
+        "end": 161
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 3077,
+        "end": 3090
+      },
+      {
+        "text": "LUCAS FERREIRA DOS SANTOS",
+        "type": "PERSON",
+        "start": 591,
+        "end": 616
+      },
+      {
+        "text": "25 de março de 1992",
+        "type": "DATE",
+        "start": 711,
+        "end": 730
+      },
+      {
+        "text": "Rua Visconde de Nacar, nº 345",
+        "type": "ADDRESS",
+        "start": 257,
+        "end": 286
+      },
+      {
+        "text": "Avenida Sete de Setembro, nº 1440, apto. 502",
+        "type": "ADDRESS",
+        "start": 759,
+        "end": 803
+      },
+      {
+        "text": "Rua Visconde de Nacar, nº 345",
+        "type": "ADDRESS",
+        "start": 3015,
+        "end": 3044
+      },
+      {
+        "text": "domiciliado na Avenida Sete de Setembro, nº 1440",
+        "type": "ADDRESS",
+        "start": 744,
+        "end": 792
+      },
+      {
+        "text": "Ministério P",
+        "type": "INSTITUTION",
+        "start": 2637,
+        "end": 2649
+      }
+    ],
+    [
+      {
+        "text": "MARCELO AUGUSTO VIEIRA",
+        "type": "PERSON",
+        "start": 139,
+        "end": 161
+      },
+      {
+        "text": "15 de maio de 2024",
+        "type": "DATE",
+        "start": 1034,
+        "end": 1052
+      },
+      {
+        "text": "(41) 3322-5566",
+        "type": "PHONE",
+        "start": 350,
+        "end": 364
+      },
+      {
+        "text": "RG nº 99.888.777-6 SSP",
+        "type": "RG",
+        "start": 696,
+        "end": 718
+      },
+      {
+        "text": "OAB/PR nº 12345",
+        "type": "OAB",
+        "start": 2821,
+        "end": 2836
+      },
+      {
+        "text": "CPF nº 987.654.321-00",
+        "type": "CPF",
+        "start": 673,
+        "end": 694
+      },
+      {
+        "text": "Telefone: (41) 3322-5566",
+        "type": "PHONE",
+        "start": 2837,
+        "end": 2861
+      },
+      {
+        "text": "EDUARDO SILVA BARROS",
+        "type": "PERSON",
+        "start": 618,
+        "end": 638
+      },
+      {
+        "text": "CEP 80215-100",
+        "type": "CEP",
+        "start": 858,
+        "end": 871
+      },
+      {
+        "text": "20 de julho de 1996",
+        "type": "DATE",
+        "start": 734,
+        "end": 753
+      },
+      {
+        "text": "23 de maio de 2024",
+        "type": "DATE",
+        "start": 2773,
+        "end": 2791
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 326,
+        "end": 339
+      },
+      {
+        "text": "CEP 80410-201",
+        "type": "CEP",
+        "start": 2950,
+        "end": 2963
+      },
+      {
+        "text": "Rua Visconde de Nacar, nº 345",
+        "type": "ADDRESS",
+        "start": 257,
+        "end": 286
+      },
+      {
+        "text": "Rua Visconde de Nacar, nº 345",
+        "type": "ADDRESS",
+        "start": 2888,
+        "end": 2917
+      },
+      {
+        "text": "domiciliado na Rua Engenheiros Rebouças, nº 1020",
+        "type": "ADDRESS",
+        "start": 767,
+        "end": 815
+      },
+      {
+        "text": "Ministério P",
+        "type": "INSTITUTION",
+        "start": 2502,
+        "end": 2514
+      }
+    ],
+    [
+      {
+        "text": "agência nº 0003",
+        "type": "BANK_ACCOUNT",
+        "start": 572,
+        "end": 587
+      },
+      {
+        "text": "R$ 20.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3430,
+        "end": 3442
+      },
+      {
+        "text": "CPF nº 890.123.456-77",
+        "type": "CPF",
+        "start": 926,
+        "end": 947
+      },
+      {
+        "text": "conta bancária nº 11223-4",
+        "type": "BANK_ACCOUNT",
+        "start": 545,
+        "end": 570
+      },
+      {
+        "text": "RG nº 44.555.666-7 SSP",
+        "type": "RG",
+        "start": 949,
+        "end": 971
+      },
+      {
+        "text": "CEP 80420-300",
+        "type": "CEP",
+        "start": 3702,
+        "end": 3715
+      },
+      {
+        "text": "RG nº 77.888.999-1 SSP",
+        "type": "RG",
+        "start": 387,
+        "end": 409
+      },
+      {
+        "text": "CPF nº 567.890.123-44",
+        "type": "CPF",
+        "start": 199,
+        "end": 220
+      },
+      {
+        "text": "18 de agosto de 2006",
+        "type": "DATE",
+        "start": 1316,
+        "end": 1336
+      },
+      {
+        "text": "OAB/PR nº 98",
+        "type": "OAB",
+        "start": 3557,
+        "end": 3569
+      },
+      {
+        "text": "CEP 80060-000",
+        "type": "CEP",
+        "start": 517,
+        "end": 530
+      },
+      {
+        "text": "Telefone: (41) 3311-7788",
+        "type": "PHONE",
+        "start": 3574,
+        "end": 3598
+      },
+      {
+        "text": "MARCELO RIBEIRO VASCONCELOS",
+        "type": "PERSON",
+        "start": 863,
+        "end": 890
+      },
+      {
+        "text": "CEP 80610-010",
+        "type": "CEP",
+        "start": 1071,
+        "end": 1084
+      },
+      {
+        "text": "JULIANA OLIVEIRA FONSECA",
+        "type": "PERSON",
+        "start": 301,
+        "end": 325
+      },
+      {
+        "text": "20 de maio de 2024",
+        "type": "DATE",
+        "start": 3507,
+        "end": 3525
+      },
+      {
+        "text": "CPF nº 654.321.987-00",
+        "type": "CPF",
+        "start": 364,
+        "end": 385
+      },
+      {
+        "text": "RG nº 33.444.555-6 SSP",
+        "type": "RG",
+        "start": 222,
+        "end": 244
+      },
+      {
+        "text": "Rua XV de Novembro, nº 1234, apto. 201",
+        "type": "ADDRESS",
+        "start": 449,
+        "end": 487
+      },
+      {
+        "text": "Avenida Presidente Kennedy, nº 500",
+        "type": "ADDRESS",
+        "start": 1003,
+        "end": 1037
+      },
+      {
+        "text": "Rua XV de Novembro, nº 1500, apto. 305",
+        "type": "ADDRESS",
+        "start": 3641,
+        "end": 3679
+      },
+      {
+        "text": "domiciliado na Avenida Presidente Kennedy, nº 500",
+        "type": "ADDRESS",
+        "start": 988,
+        "end": 1037
+      },
+      {
+        "text": "Banco Ita",
+        "type": "INSTITUTION",
+        "start": 589,
+        "end": 598
+      }
+    ],
+    [
+      {
+        "text": "Telefone: (11) 3333-6677",
+        "type": "PHONE",
+        "start": 2897,
+        "end": 2921
+      },
+      {
+        "text": "CPF nº 111.222.333-44",
+        "type": "CPF",
+        "start": 204,
+        "end": 225
+      },
+      {
+        "text": "RG nº 55.666.777-8 SSP",
+        "type": "RG",
+        "start": 227,
+        "end": 249
+      },
+      {
+        "text": "R$ 60.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2753,
+        "end": 2765
+      },
+      {
+        "text": "CEP 01001-000",
+        "type": "CEP",
+        "start": 346,
+        "end": 359
+      },
+      {
+        "text": "16 de maio de 2024",
+        "type": "DATE",
+        "start": 2834,
+        "end": 2852
+      },
+      {
+        "text": "OAB/SP nº 67",
+        "type": "OAB",
+        "start": 2880,
+        "end": 2892
+      },
+      {
+        "text": "CEP 01001-010",
+        "type": "CEP",
+        "start": 3022,
+        "end": 3035
+      },
+      {
+        "text": "conta bancária nº 33445-6",
+        "type": "BANK_ACCOUNT",
+        "start": 374,
+        "end": 399
+      },
+      {
+        "text": "agência nº 5555",
+        "type": "BANK_ACCOUNT",
+        "start": 401,
+        "end": 416
+      },
+      {
+        "text": "CARLOS ROBERTO FERREIRA GOMES",
+        "type": "PERSON",
+        "start": 484,
+        "end": 513
+      },
+      {
+        "text": "R$ 5.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 1802,
+        "end": 1813
+      },
+      {
+        "text": "RG nº 22.111.000-9 SSP",
+        "type": "RG",
+        "start": 570,
+        "end": 592
+      },
+      {
+        "text": "FERREIRA GOMES",
+        "type": "PERSON",
+        "start": 156,
+        "end": 170
+      },
+      {
+        "text": "domiciliada na Rua Visconde de Pirajá, nº 123",
+        "type": "ADDRESS",
+        "start": 266,
+        "end": 311
+      },
+      {
+        "text": "Banco do Brasil",
+        "type": "INSTITUTION",
+        "start": 418,
+        "end": 433
+      },
+      {
+        "text": "Ministério P",
+        "type": "INSTITUTION",
+        "start": 2241,
+        "end": 2253
+      }
+    ],
+    [
+      {
+        "text": "RG nº 11.222.333-4 SSP",
+        "type": "RG",
+        "start": 228,
+        "end": 250
+      },
+      {
+        "text": "CPF nº 123.456.789-10",
+        "type": "CPF",
+        "start": 205,
+        "end": 226
+      },
+      {
+        "text": "R$ 5.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3117,
+        "end": 3128
+      },
+      {
+        "text": "Telefone: (41) 3344-1122",
+        "type": "PHONE",
+        "start": 3275,
+        "end": 3299
+      },
+      {
+        "text": "CEP 80010-100",
+        "type": "CEP",
+        "start": 346,
+        "end": 359
+      },
+      {
+        "text": "LUIZ CARLOS MENDES",
+        "type": "PERSON",
+        "start": 151,
+        "end": 169
+      },
+      {
+        "text": "25 de maio de 2024",
+        "type": "DATE",
+        "start": 3214,
+        "end": 3232
+      },
+      {
+        "text": "OAB/PR nº 23456",
+        "type": "OAB",
+        "start": 3259,
+        "end": 3274
+      },
+      {
+        "text": "processo nº 0001234-56.2020.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 856,
+        "end": 893
+      },
+      {
+        "text": "Rua dos Pinheiros, nº 150",
+        "type": "ADDRESS",
+        "start": 282,
+        "end": 307
+      },
+      {
+        "text": "Rua Marechal Floriano Peixoto, nº 321",
+        "type": "ADDRESS",
+        "start": 3325,
+        "end": 3362
+      },
+      {
+        "text": "domiciliado na Rua dos Pinheiros, nº 150",
+        "type": "ADDRESS",
+        "start": 267,
+        "end": 307
+      },
+      {
+        "text": "Ministério P",
+        "type": "INSTITUTION",
+        "start": 2737,
+        "end": 2749
+      }
+    ],
+    [
+      {
+        "text": "CARLOS EDUARDO MENDES SILVA",
+        "type": "PERSON",
+        "start": 139,
+        "end": 166
+      },
+      {
+        "text": "CEP 80420-120",
+        "type": "CEP",
+        "start": 374,
+        "end": 387
+      },
+      {
+        "text": "CEP 80410-400",
+        "type": "CEP",
+        "start": 3218,
+        "end": 3231
+      },
+      {
+        "text": "processo nº 0009876-54.2020.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 768,
+        "end": 805
+      },
+      {
+        "text": "15 de março de 2020",
+        "type": "DATE",
+        "start": 832,
+        "end": 851
+      },
+      {
+        "text": "CPF nº 222.333.444-55",
+        "type": "CPF",
+        "start": 200,
+        "end": 221
+      },
+      {
+        "text": "05 de abril de 1985",
+        "type": "DATE",
+        "start": 261,
+        "end": 280
+      },
+      {
+        "text": "R$ 5.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 2911,
+        "end": 2922
+      },
+      {
+        "text": "RG nº 12.345.678-9 SSP",
+        "type": "RG",
+        "start": 223,
+        "end": 245
+      },
+      {
+        "text": "28 de maio de 2024",
+        "type": "DATE",
+        "start": 3008,
+        "end": 3026
+      },
+      {
+        "text": "Rua dos Pinheiros, nº 456, apto. 302",
+        "type": "ADDRESS",
+        "start": 309,
+        "end": 345
+      },
+      {
+        "text": "Rua Marechal Floriano Peixoto, nº 789",
+        "type": "ADDRESS",
+        "start": 3138,
+        "end": 3175
+      },
+      {
+        "text": "domiciliado na Rua dos Pinheiros, nº 456",
+        "type": "ADDRESS",
+        "start": 294,
+        "end": 334
+      },
+      {
+        "text": "Ministério P",
+        "type": "INSTITUTION",
+        "start": 2585,
+        "end": 2597
+      }
+    ],
+    [
+      {
+        "text": "CPF nº 321.654.987-10",
+        "type": "CPF",
+        "start": 203,
+        "end": 224
+      },
+      {
+        "text": "CEP 80240-000",
+        "type": "CEP",
+        "start": 379,
+        "end": 392
+      },
+      {
+        "text": "LUIS BARBOSA PEREIRA",
+        "type": "PERSON",
+        "start": 145,
+        "end": 165
+      },
+      {
+        "text": "05 de junho de 2018",
+        "type": "DATE",
+        "start": 834,
+        "end": 853
+      },
+      {
+        "text": "OAB/PR nº 67",
+        "type": "OAB",
+        "start": 3678,
+        "end": 3690
+      },
+      {
+        "text": "RG nº 22.333.444-5 SSP",
+        "type": "RG",
+        "start": 226,
+        "end": 248
+      },
+      {
+        "text": "CEP 80410-350",
+        "type": "CEP",
+        "start": 3841,
+        "end": 3854
+      },
+      {
+        "text": "10 de fevereiro de 1980",
+        "type": "DATE",
+        "start": 264,
+        "end": 287
+      },
+      {
+        "text": "processo nº 0004321-98.2018.8.16.0001",
+        "type": "PROCESS_NUMBER",
+        "start": 936,
+        "end": 973
+      },
+      {
+        "text": "R$ 8.000,00",
+        "type": "FINANCIAL_VALUE",
+        "start": 3535,
+        "end": 3546
+      },
+      {
+        "text": "26 de maio de 2024",
+        "type": "DATE",
+        "start": 3631,
+        "end": 3649
+      },
+      {
+        "text": "Rua Marechal Floriano Peixoto, nº 500",
+        "type": "ADDRESS",
+        "start": 3761,
+        "end": 3798
+      },
+      {
+        "text": "domiciliado na Rua João Pessoa, nº 200",
+        "type": "ADDRESS",
+        "start": 301,
+        "end": 339
+      }
+    ]
+  ],
+  "sample_texts": [
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nJOÃO PEDRO ALMEIDA SOUZA, brasileiro, casado, engenheiro civil, CPF nº 123.456.789-10, RG nº 11.222.333-4 SSP/PR, residente e domiciliado na Rua das Palmeiras, nº 123, apto. 401, bairro Água Verde, Curitiba/PR, CEP 80240-000, portador da conta bancária nº 12345-6, agência nº 0001, Banco do Brasil, e cartão de crédito VISA nº 4111 1111 1111 1111, validade 12/2028; e MARIA CLARA RODRIGUES PEREIRA, brasileira, casada, médica, CPF nº 987.654.321-00, RG nº 55.666.777-8 SSP/PR, residente e domiciliada na Avenida Sete de Setembro, nº 4567, apto. 102, bairro Batel, Curitiba/PR, CEP 80440-000, portadora da conta bancária nº 98765-4, agência nº 0002, Caixa Econômica Federal, e cartão de crédito Mastercard nº 5500 0000 0000 0004, validade 05/2029, por seus procuradores, vêm respeitosamente perante Vossa Excelência, com fundamento no artigo 731 do Código de Processo Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE DIVÓRCIO CONSENSUAL CUMULADA COM PARTILHA DE BENS E GUARDA COMPARTILHADA\n\nem razão dos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nOs requerentes contraíram matrimônio sob o regime da comunhão parcial de bens em 10 de março de 2012, conforme certidão de casamento anexa. Da união, nasceram dois filhos menores, a saber:\n\nLucas Pereira Souza, nascido em 15 de julho de 2014;\n\nAna Luísa Pereira Souza, nascida em 22 de novembro de 2017.\n\nEm comum acordo, os requerentes decidiram pela dissolução do vínculo matrimonial, reconhecendo a impossibilidade de continuação da vida conjugal. Ressaltam, contudo, que a decisão foi amadurecida de forma consensual e pacífica, priorizando o bem-estar dos filhos.\n\nII – DA GUARDA COMPARTILHADA\n\nAmbos concordam com a guarda compartilhada dos filhos menores, mantendo residência principal com a mãe e estabelecendo convivência livre e equilibrada com o pai, especialmente em finais de semana alternados e metade das férias escolares.\n\nIII – DOS ALIMENTOS\n\nFica acordado o pagamento mensal de alimentos pelo requerente João Pedro Almeida Souza no valor de R$ 2.500,00 (dois mil e quinhentos reais), pagos até o 5º dia útil de cada mês, diretamente à genitora, com reajuste anual pelo índice oficial de inflação (IPCA).\n\nIV – DA PARTILHA DOS BENS\n\nOs requerentes possuem em comum os seguintes bens:\n\na) Um apartamento situado na Rua das Flores, nº 890, apto. 1502, bairro Centro, Curitiba/PR, CEP 80010-000, avaliado em R$ 600.000,00 (seiscentos mil reais), registrado no Cartório de Registro de Imóveis sob matrícula nº 56789;\nb) Veículo Toyota Corolla, placa XYZ-1234, ano 2020, avaliado em R$ 90.000,00 (noventa mil reais).\n\nAcordam os requerentes que o apartamento será alienado e o valor apurado dividido igualmente entre ambos. O veículo ficará com o requerente João Pedro Almeida Souza, que indenizará a requerente Maria Clara Rodrigues Pereira na importância de R$ 45.000,00 (quarenta e cinco mil reais), correspondente a 50% do valor do bem, a ser depositado na conta bancária da requerente acima indicada no prazo máximo de 30 (trinta) dias após a homologação judicial do presente acordo.\n\nV – DO NOME\n\nA requerente opta por retornar a utilizar seu nome de solteira, passando a assinar-se MARIA CLARA RODRIGUES PEREIRA.\n\nVI – DOS PEDIDOS\n\nAnte o exposto, requerem os peticionantes:\n\na) A homologação do acordo e consequente decretação do divórcio consensual dos requerentes, com a dissolução do vínculo matrimonial;\nb) A homologação da guarda compartilhada dos filhos menores, conforme detalhado acima;\nc) A fixação dos alimentos nos termos do acordo apresentado;\nd) A homologação da partilha de bens conforme especificada acima;\ne) A alteração do nome da requerente para o nome de solteira;\nf) Seja deferida a produção das provas que se fizerem necessárias;\ng) A concessão dos benefícios da justiça gratuita aos requerentes, considerando a declaração anexa de hipossuficiência econômica;\nh) Intimação do Ministério Público em razão da existência de filhos menores.\n\nDá-se à causa o valor de R$ 690.000,00 (seiscentos e noventa mil reais).\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 10 de maio de 2024.\n\nDr. CARLOS EDUARDO LIMA FERREIRAOAB/PR nº 12.345Telefone: (41) 3222-1234Lima Ferreira Advocacia FamiliarRua XV de Novembro, nº 250, 6º andar, sala 602, Centro, Curitiba/PR, CEP 80020-310",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nGUILHERME ANDRÉ MACHADO, brasileiro, divorciado, empresário, CPF nº 555.666.777-88, RG nº 12.345.678-0 SSP/PR, residente e domiciliado na Rua XV de Novembro, nº 555, apto. 403, bairro Centro, Curitiba/PR, CEP 80020-000, por seus procuradores abaixo assinados, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 1.699 do Código Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE EXONERAÇÃO DE ALIMENTOS DE FILHO MAIOR\n\nem face de RAFAEL MACHADO, brasileiro, solteiro, estudante, CPF nº 888.999.000-11, RG nº 22.333.444-5 SSP/PR, residente e domiciliado na Avenida República Argentina, nº 2000, apto. 901, bairro Água Verde, Curitiba/PR, CEP 80240-000, pelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nO requerente encontra-se obrigado ao pagamento de alimentos em favor do requerido, seu filho, conforme decisão proferida nos autos nº 0005678-90.2015.8.16.0001 desta Vara de Família.\n\nAtualmente, o requerido conta com 25 anos de idade, concluiu sua graduação em Administração em dezembro de 2023 e está plenamente capacitado para exercer atividade profissional remunerada e independente.\n\nII – DO DIREITO\n\nO artigo 1.699 do Código Civil estabelece que a obrigação alimentar pode ser revista quando modificada a situação financeira das partes, especialmente quando o alimentado atinge capacidade para prover seu próprio sustento.\n\nConsiderando a capacidade atual do requerido, mostra-se plenamente justificável a exoneração definitiva da obrigação alimentar anteriormente fixada.\n\nIII – DAS PROVAS\n\nJunta-se documentação comprobatória da conclusão do curso superior e idade do requerido. Requer-se também a produção de provas adicionais que se fizerem necessárias.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer-se:\n\na) A citação do requerido para, querendo, apresentar defesa;\nb) A exoneração definitiva da obrigação alimentar anteriormente estabelecida;\nc) A produção das provas necessárias ao esclarecimento dos fatos;\nd) A concessão dos benefícios da justiça gratuita ao requerente, conforme declaração anexa;\ne) A procedência total da presente ação.\n\nDá-se à causa o valor de R$ 12.000,00 (doze mil reais).\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 21 de maio de 2024.\n\nDr. FÁBIO AUGUSTO SOARES\nOAB/PR nº 91.234\nTelefone: (41) 3344-5566\nSoares Advocacia Familiar\nRua Marechal Deodoro, nº 250, 5º andar, sala 502, Centro, Curitiba/PR, CEP 80010-010",
+    "EXCELENTÍSSIMO SENHOR DOUTOR DESEMBARGADOR PRESIDENTE DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DO PARANÁ\n\nImpetrante: Dr. MARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566;\n\nPaciente: RICARDO JOSÉ ALMEIDA, brasileiro, solteiro, técnico em informática, CPF nº 123.456.789-00, RG nº 10.123.456-7 SSP/PR, nascido em 15 de maio de 1990, residente e domiciliado na Rua Conselheiro Laurindo, nº 1250, apto. 503, bairro Rebouças, Curitiba/PR, CEP 80230-180, atualmente recolhido ilegalmente sob o número de identificação prisional 2024/0054321.\n\nO Impetrante acima qualificado, no exercício regular de sua profissão e com fundamento no artigo 5º, LXVIII da Constituição Federal, artigos 647 e seguintes do Código de Processo Penal, vem respeitosamente perante Vossa Excelência impetrar a presente ordem de\n\nHABEAS CORPUS\n\nEm favor do Paciente acima identificado, indicando como autoridade coatora o MM. Juiz de Direito da Vara Criminal da Comarca de Curitiba, pelas razões fáticas e jurídicas a seguir expostas:\n\nI – DOS FATOS\n\nO paciente foi preso preventivamente em 10 de maio de 2024, sob a alegação de suposta prática de furto qualificado, conforme decisão proferida pelo juízo da Vara Criminal da Comarca de Curitiba, nos autos do processo nº 0023456-78.2024.8.16.0001.\n\nContudo, verifica-se flagrante ilegalidade na decretação da prisão preventiva, uma vez que não há elementos concretos nos autos que justifiquem a segregação cautelar do paciente, tampouco indícios suficientes que demonstrem o risco à ordem pública, econômica ou a instrução criminal.\n\nII – DO DIREITO\n\nConforme preceitua o artigo 312 do Código de Processo Penal, a prisão preventiva só poderá ser decretada mediante fundamentação concreta e existência de requisitos legais específicos, quais sejam garantia da ordem pública, ordem econômica, conveniência da instrução criminal ou aplicação da lei penal.\n\nNa hipótese presente, inexiste justificativa plausível ou concreta que sustente a prisão preventiva. Não há antecedentes criminais do paciente, possui residência fixa e atividade profissional lícita, fatores que afastam a necessidade de medida cautelar extrema.\n\nIII – DAS PROVAS\n\nRequer-se a juntada dos documentos pessoais do paciente, comprovante de residência, comprovante de emprego, bem como cópia integral do processo originário.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer o Impetrante:\n\na) A concessão liminar da ordem de Habeas Corpus, determinando a imediata soltura do paciente;\nb) Seja oficiada a autoridade apontada como coatora para prestar as informações necessárias no prazo legal;\nc) Seja dado vista ao Ministério Público;\nd) No mérito, a confirmação da ordem liminar concedida, tornando definitiva a liberdade do paciente;\ne) A juntada dos documentos anexados à presente impetração.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 22 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 310, inciso III, e artigo 319 do Código de Processo Penal, propor o presente pedido de\n\nLIBERDADE PROVISÓRIA CUMULADA COM MEDIDAS CAUTELARES\n\nem favor de LUCAS FERREIRA DOS SANTOS, brasileiro, solteiro, vendedor, CPF nº 112.233.445-56, RG nº 12.345.678-9 SSP/PR, nascido em 25 de março de 1992, residente e domiciliado na Avenida Sete de Setembro, nº 1440, apto. 502, bairro Centro, Curitiba/PR, CEP 80060-070, atualmente custodiado sob número de identificação prisional 2024/0065432, pelas razões de fato e de direito a seguir expostas:\n\nI – DOS FATOS\n\nO acusado foi preso em flagrante no dia 16 de maio de 2024, acusado do crime previsto no artigo 157, caput, do Código Penal (roubo simples). O flagrante foi regularmente lavrado e homologado, porém não há elementos que justifiquem a manutenção da prisão preventiva, considerando que o acusado é primário, possui residência fixa e atividade laboral comprovada.\n\nII – DO DIREITO\n\nNos termos do artigo 310, inciso III, do Código de Processo Penal, verificada a ausência dos requisitos que autorizam a prisão preventiva, deverá ser concedida a liberdade provisória ao acusado, condicionada às medidas cautelares previstas no artigo 319 do mesmo código.\n\nNo presente caso, o acusado atende a todas as condições legais para responder ao processo em liberdade, sendo suficiente a aplicação de medidas cautelares alternativas à prisão.\n\nIII – DAS MEDIDAS CAUTELARES\n\nPropõe-se a aplicação das seguintes medidas cautelares previstas no artigo 319 do Código de Processo Penal:\n\na) Comparecimento mensal em juízo para informar e justificar atividades;\nb) Proibição de se ausentar da comarca sem autorização judicial prévia;\nc) Recolhimento domiciliar no período noturno e em dias de folga;\nd) Proibição de frequentar determinados lugares relacionados ao fato investigado.\n\nIV – DAS PROVAS\n\nRequer-se a juntada dos documentos pessoais do acusado, comprovantes de residência e vínculo empregatício, bem como quaisquer outros documentos pertinentes.\n\nV – DOS PEDIDOS\n\nAnte o exposto, requer-se:\n\na) A concessão da liberdade provisória mediante a imposição das medidas cautelares propostas;\nb) A expedição do competente alvará de soltura;\nc) Seja dada vista ao Ministério Público;\nd) A produção das provas necessárias para demonstrar os fatos alegados;\ne) A concessão dos benefícios da justiça gratuita ao acusado, conforme declaração anexa;\nf) A procedência total deste pedido.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 24 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nMARCELO AUGUSTO VIEIRA, brasileiro, advogado, inscrito na OAB/PR sob nº 12345, com escritório profissional situado na Rua Visconde de Nacar, nº 345, sala 402, bairro Centro, Curitiba/PR, CEP 80410-201, telefone (41) 3322-5566, vem respeitosamente perante Vossa Excelência, com fundamento no artigo 5º, inciso LXV, da Constituição Federal e artigos 310, inciso I, e 648, inciso II, do Código de Processo Penal, requerer o presente\n\nRELAXAMENTO DE PRISÃO EM FLAGRANTE\n\nem favor de EDUARDO SILVA BARROS, brasileiro, solteiro, estudante, CPF nº 987.654.321-00, RG nº 99.888.777-6 SSP/PR, nascido em 20 de julho de 1996, residente e domiciliado na Rua Engenheiros Rebouças, nº 1020, apto. 802, bairro Rebouças, Curitiba/PR, CEP 80215-100, atualmente custodiado sob número de identificação prisional 2024/0056789, pelas razões a seguir expostas:\n\nI – DOS FATOS\nO acusado foi preso em flagrante no dia 15 de maio de 2024, sob a acusação de suposto crime de tráfico de drogas. Entretanto, o Auto de Prisão em Flagrante não apresenta justificativa legal válida, estando eivado de irregularidades, visto que não foram observados os requisitos essenciais para a configuração do flagrante.\n\nA prisão ocorreu quando o acusado transitava normalmente pela via pública, sem portar qualquer substância ilícita ou apresentar conduta que configurasse suspeita razoável para abordagem policial.\n\nII – DO DIREITO\nNos termos do artigo 5º, inciso LXV da Constituição Federal, a prisão ilegal será imediatamente relaxada pela autoridade judiciária. O artigo 310, inciso I, do Código de Processo Penal reforça que a prisão em flagrante deve ser relaxada quando constatada sua ilegalidade.\n\nNo presente caso, verifica-se que a prisão ocorreu sem fundamentação jurídica válida e sem observância dos requisitos legais necessários para caracterização da flagrância. Ademais, o acusado possui residência fixa, ocupação lícita e bons antecedentes.\n\nIII – DAS PROVAS\nRequer-se a juntada dos documentos pessoais do acusado, comprovantes de residência e matrícula escolar, e depoimentos testemunhais que comprovem a irregularidade da prisão.\n\nIV – DOS PEDIDOS\nDiante do exposto, requer-se:\n\na) O relaxamento imediato da prisão ilegal do acusado;\nb) A expedição do competente alvará de soltura;\nc) Seja oficiado o responsável pela unidade prisional para cumprimento imediato;\nd) Seja dada vista ao Ministério Público;\ne) A produção de todas as provas necessárias para demonstrar os fatos alegados;\nf) A concessão dos benefícios da justiça gratuita ao acusado, conforme declaração anexa;\ng) A procedência total deste pedido.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 23 de maio de 2024.\n\nDr. MARCELO AUGUSTO VIEIRA\nOAB/PR nº 12345\nTelefone: (41) 3322-5566\nVieira Advocacia Criminal\nRua Visconde de Nacar, nº 345, sala 402, Centro, Curitiba/PR, CEP 80410-201",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nCAMILA OLIVEIRA FONSECA, brasileira, solteira, estudante, CPF nº 567.890.123-44, RG nº 33.444.555-6 SSP/PR, representada por sua genitora e representante legal JULIANA OLIVEIRA FONSECA, brasileira, solteira, recepcionista, CPF nº 654.321.987-00, RG nº 77.888.999-1 SSP/PR, ambas residentes e domiciliadas na Rua XV de Novembro, nº 1234, apto. 201, bairro Centro, Curitiba/PR, CEP 80060-000, portadora da conta bancária nº 11223-4, agência nº 0003, Banco Itaú, vêm, respeitosamente, perante Vossa Excelência, com fundamento nos artigos 1.606 e seguintes do Código Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE INVESTIGAÇÃO DE PATERNIDADE CUMULADA COM PEDIDO DE ALIMENTOS PROVISÓRIOS\n\nem face de MARCELO RIBEIRO VASCONCELOS, brasileiro, solteiro, empresário, CPF nº 890.123.456-77, RG nº 44.555.666-7 SSP/PR, residente e domiciliado na Avenida Presidente Kennedy, nº 500, bairro Água Verde, Curitiba/PR, CEP 80610-010, pelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nA genitora da requerente conviveu em união estável com o requerido entre os anos de 2005 e 2006, resultando no nascimento da menor Camila Oliveira Fonseca, em 18 de agosto de 2006. Apesar de fortes evidências de convivência e dependência financeira, o requerido jamais reconheceu espontaneamente a paternidade, abstendo-se do dever de assistência material e emocional para com a criança.\n\nA ausência de reconhecimento, somada à evidente necessidade de proteção dos direitos da menor, impõe a necessidade de investigação judicial para o reconhecimento da paternidade e, consequentemente, a fixação de alimentos provisórios até que se defina o deslinde final do feito.\n\nII – DO DIREITO\n\nConforme dispõe o artigo 1.606 do Código Civil, é cabível a investigação judicial de paternidade para que se reconheça o vínculo biológico, permitindo, assim, a fixação de alimentos em favor da menor. A negativa do requerido em assumir a paternidade, aliada à evidência de dependência econômica da criança, torna imprescindível a intervenção judicial para garantir os direitos fundamentais da menor.\n\nIII – DAS PROVAS\n\nA requerente junta aos autos documentos que comprovam o vínculo estável e a convivência entre a genitora e o requerido, tais como fotografias, declarações de testemunhas, comprovantes de endereço e documentos que evidenciam a dependência financeira. Requer, ainda, a realização de exame de DNA para confirmar o vínculo biológico, bem como a oitiva de testemunhas.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer-se a Vossa Excelência:\n\na) A citação do requerido para que, querendo, apresente defesa, sob pena de revelia;\n\nb) O reconhecimento judicial da paternidade da menor Camila Oliveira Fonseca em relação ao requerido;\n\nc) A fixação de alimentos provisórios em favor da menor, em valor a ser arbitrado por este Juízo, de modo a garantir o sustento, saúde, educação e demais necessidades essenciais da criança;\n\nd) A produção de todas as provas admitidas em direito, especialmente o exame de DNA e o depoimento das testemunhas arroladas;\n\ne) A concessão dos benefícios da justiça gratuita à requerente, nos termos da declaração de hipossuficiência anexa;\n\nf) A procedência total da ação, com a confirmação definitiva dos pedidos ora formulados.\n\nDá-se à causa o valor de R$ 20.000,00 (vinte mil reais).\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 20 de maio de 2024.\n\nDr. ROBERTO CARVALHO PEREIRA\nOAB/PR nº 98.765\nTelefone: (41) 3311-7788\nPereira & Associados – Advocacia Familiar\nRua XV de Novembro, nº 1500, apto. 305, Centro, Curitiba/PR, CEP 80420-300",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA DE FAMÍLIA DA COMARCA DE SÃO PAULO – ESTADO DE SÃO PAULO\n\nProcesso nº: (a ser distribuído)\n\nMARIA JOSÉ FERREIRA GOMES, brasileira, casada, aposentada, CPF nº 111.222.333-44, RG nº 55.666.777-8 SSP/SP, residente e domiciliada na Rua Visconde de Pirajá, nº 123, apto. 305, Centro, São Paulo/SP, CEP 01001-000, portadora da conta bancária nº 33445-6, agência nº 5555, Banco do Brasil, representada por seu filho e representante legal CARLOS ROBERTO FERREIRA GOMES, brasileiro, solteiro, advogado, CPF nº 999.888.777-66, RG nº 22.111.000-9 SSP/SP, residente e domiciliado no mesmo endereço, por seus procuradores, vem respeitosamente perante Vossa Excelência, com fundamento nos artigos 747 e seguintes do Código de Processo Civil e demais dispositivos legais aplicáveis, propor a presente\n\nAÇÃO DE INTERDIÇÃO JUDICIAL POR INCAPACIDADE CIVIL\n\npelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nA requerente, atualmente com 78 anos de idade, encontra-se acometida por doença degenerativa, Alzheimer, diagnosticada em 2020, conforme laudo médico anexado aos autos. A enfermidade compromete significativamente suas capacidades cognitivas, impossibilitando-a de realizar atos da vida civil com discernimento e autonomia.\n\nEm razão disso, necessita de acompanhamento permanente e cuidados diários específicos, situação que justificou a representação de seu filho como curador.\n\nII – DA NECESSIDADE DE INTERDIÇÃO\n\nDiante do quadro clínico apresentado, faz-se necessária a interdição judicial para garantir a proteção jurídica dos direitos e do patrimônio da requerente, permitindo ao representante legal agir oficialmente em seu nome.\n\nIII – DOS DIREITOS E PATRIMÔNIO DA REQUERENTE\n\nA requerente recebe aposentadoria pelo INSS no valor de R$ 5.000,00 mensais e possui conta bancária para custear suas despesas médicas, alimentares e habitacionais.\n\nIV – DAS PROVAS\n\nApresenta-se laudo médico detalhado da incapacidade, além de demais provas documentais que demonstram a situação clínica da requerente. Requer-se, ainda, a realização de perícia médica judicial para confirmar o quadro apresentado.\n\nV – DOS PEDIDOS\n\nAnte o exposto, requer-se a Vossa Excelência:\n\na) A citação do Ministério Público para acompanhar o feito;\nb) A nomeação do representante legal, Carlos Roberto Ferreira Gomes, como curador provisório;\nc) A determinação de realização de perícia médica judicial;\nd) A procedência da presente ação, com a decretação definitiva da interdição da requerente e a nomeação de curador definitivo;\ne) A produção das provas necessárias para o esclarecimento dos fatos;\nf) A concessão dos benefícios da justiça gratuita à requerente, conforme declaração anexa.\n\nDá-se à causa o valor de R$ 60.000,00 (sessenta mil reais).\n\nNestes termos,\nPede deferimento.\n\nSão Paulo, 16 de maio de 2024.\n\nDr. FELIPE SANTOS MORAES\nOAB/SP nº 67.890\nTelefone: (11) 3333-6677\nMoraes Advocacia Familiar\nRua Visconde de Pirajá, nº 210, 4º andar, sala 410, Centro, São Paulo/SP, CEP 01001-010",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nREQUERENTE: LUIZ CARLOS MENDES, brasileiro, divorciado, operário, CPF nº 123.456.789-10, RG nº 11.222.333-4 SSP/PR, residente e domiciliado na Rua dos Pinheiros, nº 150, bairro Jardim Botânico, Curitiba/PR, CEP 80010-100, atualmente cumprindo pena em regime fechado no Estabelecimento Prisional do Estado, por intermédio de seu advogado, vem, respeitosamente, à presença de Vossa Excelência, com fundamento no artigo 112 da Lei de Execução Penal, propor o presente\n\nPEDIDO DE PROGRESSÃO DE REGIME DE PRISÃO\n\npelos fatos e fundamentos a seguir expostos:\n\nI – DOS FATOS\n\nO requerente foi condenado em 15 de março de 2020, pela prática do crime de roubo qualificado, conforme sentença transitada em julgado nos autos do processo nº 0001234-56.2020.8.16.0001, sendo atualmente cumpridor de pena em regime fechado.\n\nDurante o cumprimento de sua pena, o requerente demonstrou conduta ilibada e excelente comportamento disciplinar, participando ativamente dos programas de ressocialização e trabalho interno, o que evidencia seu comprometimento com a transformação pessoal. Ademais, o acusado não possui antecedentes criminais e mantém residência fixa, fatores que corroboram a sua aptidão para responder ao processo em regime menos restritivo.\n\nII – DO DIREITO\n\nO artigo 112 da Lei de Execução Penal (Lei nº 7.210/84) prevê que o condenado que preenche os requisitos legais – entre eles, bom comportamento, participação em programas de ressocialização e ausência de riscos à ordem pública – pode ter o seu regime de cumprimento de pena progressivamente flexibilizado.\n\nNo caso em tela, considerando-se o tempo decorrido e o comportamento exemplar do requerente, há fundamento legal e jurisprudencial para a progressão do regime de prisão, passando do regime fechado para o regime semiaberto, permitindo, assim, atividades externas e medidas de ressocialização que contribuam para sua reintegração social.\n\nIII – DAS PROVAS\n\nO requerente junta aos autos os seguintes documentos:\n\nCertidão de condenação e trânsito em julgado da sentença;\n\nRelatórios disciplinares e comprovantes de participação em programas de ressocialização;\n\nDocumentos que comprovam sua residência fixa e atividade laboral durante o cumprimento de pena;\n\nDeclarações testemunhais de funcionários do estabelecimento prisional.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer-se a Vossa Excelência:\n\na) A concessão da progressão de regime, com a transferência do requerente do regime fechado para o regime semiaberto, permitindo o trabalho externo e a participação em programas de ressocialização, conforme previsão legal;\n\nb) A intimação do Ministério Público para que se manifeste sobre o pedido;\n\nc) A produção de todas as provas necessárias, especialmente documental e testemunhal, para comprovar o bom comportamento e a aptidão do requerente para o regime semiaberto;\n\nd) A concessão dos benefícios da justiça gratuita, caso seja necessário, conforme declaração de hipossuficiência anexada.\n\nDá-se à causa o valor de R$ 5.000,00 (cinco mil reais) para efeitos fiscais.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 25 de maio de 2024.\n\nDr. ALBERTO SILVA COSTA\nOAB/PR nº 23456\nTelefone: (41) 3344-1122\nCosta Advocacia Criminal\nRua Marechal Floriano Peixoto, nº 321, 2º andar, sala 205, Centro, Curitiba/PR, CEP 80410-300",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nCARLOS EDUARDO MENDES SILVA, brasileiro, solteiro, mecânico, CPF nº 222.333.444-55, RG nº 12.345.678-9 SSP/PR, nascido em 05 de abril de 1985, residente e domiciliado na Rua dos Pinheiros, nº 456, apto. 302, bairro Batel, Curitiba/PR, CEP 80420-120, por intermédio de seu advogado que esta subscreve, vem, respeitosamente, à presença de Vossa Excelência, com fundamento nos artigos 107, inciso I, e 110 do Código Penal, propor o presente\n\nPEDIDO DE EXTINÇÃO DE PUNITIVIDADE POR PRESCRIÇÃO\n\npelos fatos e fundamentos jurídicos que passa a expor:\n\nI – DOS FATOS\nO requerente foi condenado pelo crime de furto simples, nos autos do processo nº 0009876-54.2020.8.16.0001, transitada em julgado em 15 de março de 2020.\n\nDecorrido o prazo prescricional previsto no ordenamento jurídico, não havendo que se falar em interrupção ou suspensão do prazo prescricional, o tempo decorrido desde o trânsito em julgado da sentença condenatória é suficiente para configurar a prescrição, extinguindo assim a punibilidade do requerente.\n\nO prazo prescricional para a extinção da punibilidade, nos termos do artigo 109 do Código Penal, transcorreu de forma contínua e ininterrupta, estando, portanto, presente o instituto da prescrição.\n\nII – DO DIREITO\nConforme disposto no artigo 107, inciso I, do Código Penal, a prescrição tem o condão de extinguir a punibilidade, impedindo a imposição de sanção penal mesmo que a condenação exista.\n\nO requerente, por ser primário e possuir bons antecedentes, preenche os requisitos para a aplicação da extinção de punibilidade por prescrição, uma vez que o prazo legal para a prescrição do delito se esgotou.\n\nA jurisprudência pátria é pacífica no sentido de que, decorrido o prazo prescricional sem qualquer causa interruptiva, a punibilidade deve ser extinta, conforme se observa em reiteradas decisões dos tribunais.\n\nIII – DAS PROVAS\nRequer a juntada da sentença condenatória transitada em julgado, a certidão de trânsito em julgado e demais documentos que comprovam o decurso do prazo prescricional.\n\nRequer, ainda, a oitiva de testemunhas e a produção de prova pericial, se necessário, para demonstrar a inexistência de causa interruptiva da prescrição.\n\nIV – DOS PEDIDOS\nDiante do exposto, requer-se a Vossa Excelência:\n\na) O reconhecimento e a declaração de extinção da punibilidade do requerente, nos termos do artigo 107, inciso I, do Código Penal, em virtude do decurso do prazo prescricional;\n\nb) A intimação do Ministério Público para manifestação, se necessário;\n\nc) A expedição de alvará para que se arquive definitivamente o feito, extinguindo qualquer sanção penal pendente em razão da prescrição;\n\nd) A produção de todas as provas em direito admitidas, notadamente a juntada dos documentos já mencionados.\n\nDá-se à causa o valor de R$ 5.000,00 (cinco mil reais) para efeitos fiscais.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 28 de maio de 2024.\n\nDr. RICARDO LIMA FREITAS\nOAB/PR nº 56.789\nTelefone: (41) 3311-3344\nFreitas & Associados – Advocacia Criminal\nRua Marechal Floriano Peixoto, nº 789, 3º andar, sala 305, Centro, Curitiba/PR, CEP 80410-400",
+    "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CRIMINAL DA COMARCA DE CURITIBA – ESTADO DO PARANÁ\n\nProcesso nº: (a ser distribuído)\n\nANDRÉ LUIS BARBOSA PEREIRA, brasileiro, solteiro, ex-condenado, CPF nº 321.654.987-10, RG nº 22.333.444-5 SSP/PR, nascido em 10 de fevereiro de 1980, residente e domiciliado na Rua João Pessoa, nº 200, apto. 305, bairro Batel, Curitiba/PR, CEP 80240-000, atualmente cumprindo pena no regime semiaberto, por intermédio de seu advogado que esta subscreve, vem, respeitosamente, à presença de Vossa Excelência, com fundamento nos artigos 126 e seguintes da Lei de Execução Penal (Lei nº 7.210/84) e demais dispositivos legais aplicáveis, propor o presente\n\nPEDIDO DE REMIÇÃO DE PENA POR TRABALHO\n\npelos fatos e fundamentos jurídicos a seguir expostos:\n\nI – DOS FATOS\n\nO requerente foi condenado em 05 de junho de 2018 pelo crime de roubo simples, conforme sentença transitada em julgado nos autos do processo nº 0004321-98.2018.8.16.0001, sendo atualmente cumpridor de pena em regime semiaberto no Estabelecimento Prisional de Curitiba.\n\nDurante o cumprimento de sua pena, o requerente vem desempenhando atividades laborais dentro e fora do estabelecimento prisional, participando de programas de trabalho que visam a sua ressocialização.\n\nNos últimos 24 meses, o requerente acumulou horas significativas de trabalho, contribuindo não só para o próprio sustento, mas também para a economia do estabelecimento prisional, conforme os registros de frequência e produtividade anexados.\n\nO requerente demonstrou excelente comportamento disciplinar, participando ativamente dos programas de capacitação profissional e demonstrando real comprometimento com sua reintegração social.\n\nII – DO DIREITO\n\nO artigo 126 da Lei de Execução Penal prevê a remição de pena por trabalho, permitindo que o condenado reduza o tempo de pena em razão do trabalho realizado, na proporção de 1/6 (um sexto) da pena a cada 30 dias de trabalho efetivo.\n\nO requerente preenche todos os requisitos legais para a remição de pena, pois além de manter bom comportamento e participar dos programas de ressocialização, demonstrou efetiva dedicação ao trabalho, contribuindo para a economia do estabelecimento prisional.\n\nAssim, faz-se cabível a concessão do benefício de remição, com a consequente redução proporcional do tempo de pena a ser cumprido.\n\nIII – DAS PROVAS\n\nAnexa-se aos autos:\n\nCópia da sentença condenatória e certidão de trânsito em julgado;\n\nRegistros de frequência e produtividade do trabalho realizado pelo requerente;\n\nRelatórios disciplinares que atestam o bom comportamento do condenado;\n\nDocumentos que comprovem a participação do requerente em programas de capacitação profissional.\n\nIV – DOS PEDIDOS\n\nAnte o exposto, requer-se a Vossa Excelência:\n\na) A concessão do benefício de remição de pena por trabalho, nos termos do artigo 126 da Lei de Execução Penal, reduzindo o tempo de pena a ser cumprido pelo requerente na proporção de 1/6 (um sexto) a cada 30 dias de trabalho efetivo;\n\nb) A intimação da direção do estabelecimento prisional para que informe e comprove, nos autos, as horas trabalhadas e a produtividade do requerente, conforme os registros anexados;\n\nc) A produção de todas as provas admitidas em direito, em especial a documental e testemunhal, para demonstrar o efetivo trabalho e a conduta ilibada do requerente durante o cumprimento de sua pena;\n\nd) A concessão dos benefícios da justiça gratuita, caso necessário, conforme declaração de hipossuficiência anexa.\n\nDá-se à causa o valor de R$ 8.000,00 (oito mil reais) para efeitos fiscais.\n\nNestes termos,\nPede deferimento.\n\nCuritiba, 26 de maio de 2024.\n\nDr. EDUARDO MORAES SANTOS\nOAB/PR nº 67.890\nTelefone: (41) 3322-7788\nSantos & Associados – Advocacia Criminal\nRua Marechal Floriano Peixoto, nº 500, 3º andar, sala 305, Centro, Curitiba/PR, CEP 80410-350"
+  ]
+}

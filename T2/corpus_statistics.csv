@@ -1,0 +1,9 @@
+metric,value
+total_texts,30
+total_sentences,821
+total_tokens,18000
+total_types,2423
+avg_sentences_per_text,27.37
+avg_tokens_per_text,600.0
+type_token_ratio,0.1346
+most_common_tokens,"[('de', 958), ('a', 739), ('e', 529), ('do', 392), ('da', 342), ('o', 339), ('nº', 302), ('dos', 214), ('em', 205), ('que', 167), ('para', 139), ('com', 138), ('se', 119), ('na', 110), ('requerente', 110), ('das', 109), ('pr', 107), ('cep', 96), ('direito', 94), ('curitiba', 94)]"
